@@ -1,5 +1,3 @@
-#include <cstdlib>
-#include <cstring>
 #include <iostream>
 #include <omp.h>
 #include <fstream>
@@ -36,8 +34,6 @@ int main(){
     //read from file and store in a vector
     std::ifstream input("input.txt");
     std::vector<int> v;
-    
-    //read from file and store in a vector
     std::string line;
     
     if (input.is_open()){

@@ -26,13 +26,11 @@ void Count_sort(int a[], int n) {
 }
 
 int main(){
-    omp_set_num_threads(16);
+    omp_set_num_threads(NUM_THREADS);
     
     //read from file and store in a vector
     std::ifstream input("input.txt");
     std::vector<int> v;
-    
-    //read from file and store in a vector
     std::string line;
     
     if (input.is_open()){
