@@ -56,3 +56,6 @@ int main(){
     return 0;
 
 }
+
+//clang++ count_sort.cpp -fopenmp -O2 -march=native -mtune=native is the fastest on my machine (ryzen 7 5800x3d)
+//gcc is 4 times slower for some weird reason
