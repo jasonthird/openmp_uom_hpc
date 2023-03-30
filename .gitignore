@@ -33,3 +33,6 @@
 
 # exlude vscode folder and files
 .vscode
+
+# eclude all uftrace.data folder and files
+uftrace.data
