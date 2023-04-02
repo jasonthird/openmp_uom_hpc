@@ -31,8 +31,11 @@
 *.out
 *.app
 
-# exlude vscode folder and files
+# vscode folder and files
 .vscode
 
-# eclude all uftrace.data folder and files
+# clion
+.idea
+
+# uftrace.data folder and files
 uftrace.data
