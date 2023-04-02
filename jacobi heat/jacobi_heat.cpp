@@ -13,8 +13,8 @@
 int main(int argc, char* argv[])
 {
 	int i, j, k;
-	float table1[maxsize][maxsize];
-	float table2[maxsize][maxsize];
+	auto table1 = new double[maxsize][maxsize];
+	auto table2 = new double[maxsize][maxsize];
 	double diff;
 
 	//set number of threads
@@ -35,10 +35,8 @@ int main(int argc, char* argv[])
 	  
 		/* create a heat source */
 		table1[row][col] = start;
-		
-		/* difference initialization */
 		diff = 0.0;
-
+		
 		#pragma omp parallel for private(i,j) shared (table2) default (shared) reduction(+:diff)
 			for(i=1;i<maxsize-1;i++)
 				for(j=1;j<maxsize-1;j++) {
