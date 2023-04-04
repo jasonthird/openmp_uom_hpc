@@ -3,7 +3,7 @@
 #include <time.h>
 #include <math.h>
 
-void main ( int argc, char *argv[] )  {
+int main ( int argc, char *argv[] )  {
 
 int   i, j, N;
 double *x, *b, **a, sum;
@@ -18,7 +18,7 @@ char any;
 	/* Allocate space for matrices */
 	a = (double **) malloc ( N * sizeof ( double *) );
 	for ( i = 0; i < N; i++) 
-		a[i] = ( float * ) malloc ( (i+1) * sizeof ( double ) );
+		a[i] = ( double * ) malloc ( (i+1) * sizeof ( double ) );
 	b = ( double * ) malloc ( N * sizeof ( double ) );
 	x = ( double * ) malloc ( N * sizeof ( double ) );
 
@@ -55,9 +55,10 @@ char any;
 		sum = 0.0;
 		for (j = 0; j <= i; j++) 
 			sum = sum + (x[j]*a[i][j]);	
-		if (fabsf(sum - b[i]) > 0.00001) {
+		if (fabs(sum - b[i]) > 0.00001) {
 			printf("%f != %f\n", sum, b[i]);
 			printf("Validation Failed...\n");
 		}
 	}
+	return 0;
 }
