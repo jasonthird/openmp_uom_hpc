@@ -32,17 +32,17 @@ char any;
 			a[i][j] = (double)rand()/(RAND_MAX*2.0-1.0);;
 	} 
 
-    /* Calulation */
-    for (i = 0; i < N; i++) {
-        sum = 0.0;
-        #pragma omp parallel for reduction(+:sum) num_threads(16)
-		#pragma simd reduction(+:sum)
-        for (j = 0; j < i; j++) {
-            sum = sum + (x[j] * a[i][j]);
-        }
-        x[i] = (b[i] - sum) / a[i][i];
-    }
-
+        /* Calulation */
+	for (i = 0; i < N; i++) {
+		sum = 0.0;
+		#pragma omp parallel for reduction(+:sum) firstprivate(x,a,i,N) private(j) num_threads(8) default(none)
+		for (j = 0; j < i; j++) {
+			sum = sum + (x[j] * a[i][j]);
+			//printf ("%d %d %f %f %f \t \n", i, j, x[j], a[i][j], sum);
+		}	
+		x[i] = (b[i] - sum) / a[i][i];
+		//printf ("%d %f %f %f %f \n", i, b[i], sum, a[i][i], x[i]);
+	}
 
     // /* Print result */
 	// for (i = 0; i < N; i++) {
