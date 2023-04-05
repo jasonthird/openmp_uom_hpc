@@ -39,3 +39,4 @@
 
 # uftrace.data folder and files
 uftrace.data
+*.txt
