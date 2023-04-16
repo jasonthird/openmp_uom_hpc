@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
+#include <omp.h>
 
 int main ( int argc, char *argv[] )  {
 
@@ -33,9 +34,10 @@ char any;
 	} 
 
         /* Calulation */
+	double start = omp_get_wtime();
 	for (i = 0; i < N; i++) {
 		sum = 0.0;
-		#pragma omp parallel for reduction(+:sum) firstprivate(x,a,i,N) private(j) num_threads(8) default(none)
+		#pragma omp parallel for reduction(+:sum) firstprivate(x,a,i,N) private(j) default(none)
 		for (j = 0; j < i; j++) {
 			sum = sum + (x[j] * a[i][j]);
 			//printf ("%d %d %f %f %f \t \n", i, j, x[j], a[i][j], sum);
@@ -43,6 +45,7 @@ char any;
 		x[i] = (b[i] - sum) / a[i][i];
 		//printf ("%d %f %f %f %f \n", i, b[i], sum, a[i][i], x[i]);
 	}
+	double end = omp_get_wtime();
 
     // /* Print result */
 	// for (i = 0; i < N; i++) {
@@ -61,5 +64,6 @@ char any;
 			printf("Validation Failed...\n");
 		}
 	}
+	printf("time: %f seconds for %d elements " , end - start, N);
 	return 0;
 }

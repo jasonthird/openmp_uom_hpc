@@ -4,7 +4,6 @@
 #include <vector>
 #include <string>
 
-#define NUM_THREADS 16
 
 void Count_sort(std::vector<int> &a) {
     int i, j, count;
@@ -26,7 +25,6 @@ void Count_sort(std::vector<int> &a) {
 }
 
 int main(){
-    omp_set_num_threads(NUM_THREADS);
     
     //read from file and store in a vector
     std::ifstream input("input.txt");
@@ -41,15 +39,22 @@ int main(){
     }
     else std::cout << "Unable to open file";
 
-
+    //time before
+    double start = omp_get_wtime();
     //sort
     Count_sort(v);
+    //time after
+    double end = omp_get_wtime();
 
     //write to file
     std::ofstream output("output.txt");
     for(int i = 0; i < v.size(); i++){
         output << v[i] << std::endl;
     }
+    output.close();
+    std::cout << "Time: " << end - start << " for size: " << v.size() << std::endl;
+
+
     return 0;
 
 }

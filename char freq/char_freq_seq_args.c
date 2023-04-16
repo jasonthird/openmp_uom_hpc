@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include <stdlib.h>
-#include <omp.h>
+#include <time.h>
 
 #define N 128
 #define base 0
@@ -40,19 +40,19 @@ int main (int argc, char *argv[]) {
 		freq[j]=0;
 	}
 
-	//get time before parallel region
-	double start = omp_get_wtime();
+	//get time before
+	clock_t start = clock();
 	for (i=0; i<file_size; i++){
 		freq[buffer[i] - base]++;
 	}
-	//get time after parallel region
-    double end = omp_get_wtime();	
+	//get time after
+    clock_t end = clock();	
 
 	for (j=0; j<N; j++){
 		printf("%d = %d\n", j+base, freq[j]);
 	}	
 
-	printf("Time taken: %f seconds for %ld bytes" , end-start, file_size);
+	printf("Time taken: %f seconds for %ld bytes" , (double)(end - start) / CLOCKS_PER_SEC, file_size);
 
 	fclose (pFile);
 	free (buffer);

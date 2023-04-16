@@ -33,6 +33,7 @@ char any;
 	} 
 
         /* Calulation */
+	clock_t start = clock();
 	for (i = 0; i < N; i++) {
 		sum = 0.0;
 		for (j = 0; j < i; j++) {
@@ -42,6 +43,7 @@ char any;
 		x[i] = (b[i] - sum) / a[i][i];
 		//printf ("%d %f %f %f %f \n", i, b[i], sum, a[i][i], x[i]);
 	}
+	clock_t end = clock();
 
     // /* Print result */
 	// for (i = 0; i < N; i++) {
@@ -60,5 +62,6 @@ char any;
 			printf("Validation Failed...\n");
 		}
 	}
+	printf("time: %f seconds for %d elements \n", (double)(end - start) / CLOCKS_PER_SEC, N);
 	return 0;
 }
