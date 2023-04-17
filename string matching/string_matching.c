@@ -10,7 +10,8 @@ int main (int argc, char *argv[]) {
 	char * buffer;
 	char * filename, *pattern;
 	size_t result;
-	int i, j, *match;
+	long i, j;
+	int *match;
 
         if (argc != 3) {
 		printf ("Usage : %s <file_name> <string>\n", argv[0]);
