@@ -60,20 +60,20 @@ program string_matching
   total_matches = 0
 
   ! Brute force string matching
-  start_time = omp_get_wtime() 
-  do j = 1, match_size
-    do i = 1, pattern_size
-        k = j + i - 1
-        if (buffer(k:k)/=pattern(i:i)) then
-          exit
-        end if
-    end do
-    if (i >= pattern_size) then
-        match(j) = match(j) + 1
-        total_matches = total_matches + 1
-    end if
-  end do
+  start_time = omp_get_wtime()
+  !$omp parallel do private(i,j,k) firstprivate(pattern_size,match_size) shared(match,buffer,pattern) reduction(+:total_matches)
+    do j = 1, match_size
+      i=1
+      do while(i <= pattern_size .and. buffer(j+i-1:j+i-1) == pattern(i:i))
+        i = i + 1
+      end do
 
+      if (i > pattern_size) then
+          match(j) = 1
+          total_matches = total_matches + 1
+      end if
+    end do
+  !$omp end parallel do
 
   end_time = omp_get_wtime()
 
