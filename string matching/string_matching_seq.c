@@ -1,6 +1,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <string.h>
+#include <time.h>
 
 int main (int argc, char *argv[]) {
 	
@@ -47,6 +48,7 @@ int main (int argc, char *argv[]) {
 	}
 
 	/* Brute Force string matching */
+	clock_t start = clock();
 	for (j = 0; j < match_size; ++j) {
       		for (i = 0; i < pattern_size && pattern[i] == buffer[i + j]; ++i);
       		if (i >= pattern_size) {
@@ -54,7 +56,7 @@ int main (int argc, char *argv[]) {
          		total_matches++;
                 }		
         }		
-
+	clock_t end = clock();
 	// for (j = 0; j < match_size; j++){
 	// 	printf("%d", match[j]);
 	// }	
@@ -63,6 +65,6 @@ int main (int argc, char *argv[]) {
 	fclose (pFile);
 	free (buffer);
 	free (match);
-
+	printf("Time taken: %f\n", (double)(end-start)/CLOCKS_PER_SEC);
 	return 0;
 }

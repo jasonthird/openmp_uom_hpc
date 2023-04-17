@@ -37,7 +37,7 @@ char any;
 	double start = omp_get_wtime();
 	for (i = 0; i < N; i++) {
 		sum = 0.0;
-		#pragma omp parallel for reduction(+:sum) firstprivate(x,a,i,N) private(j) default(none)
+		#pragma omp parallel for reduction(+:sum) firstprivate(i,N) shared(x,a,b) private(j) default(none)
 		for (j = 0; j < i; j++) {
 			sum = sum + (x[j] * a[i][j]);
 			//printf ("%d %d %f %f %f \t \n", i, j, x[j], a[i][j], sum);

@@ -3,6 +3,7 @@
 //it even added comments to the code
 //then asked it "can you improve the code quality even further, modernize it and use the latest c++ standards and features?"
 //and then asked it "add a NUM_THREADS above"
+//and then asked it "add a timer that measures how long the k loop was executing and then print the result in screen"
 //and thats the result
 
 #include <iostream>
@@ -36,6 +37,7 @@ int main() {
     omp_set_num_threads(NUM_THREADS);
 
     // repeat for each iteration
+    auto start = std::chrono::high_resolution_clock::now(); // start timer
     for (int k = 0; k < ITERATIONS; k++) {
         // create a heat source
         table1[ROW][COL] = START;
@@ -68,6 +70,10 @@ int main() {
             }
         }
     }
+    auto end = std::chrono::high_resolution_clock::now(); // end timer
+
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
+    std::cout << "Execution time: " << duration.count() << " microseconds" << std::endl;
 
     return 0;
 }

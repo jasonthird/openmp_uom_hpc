@@ -9,15 +9,14 @@
 #define COL 50
 #define START 100.0
 #define ACCURACY 27
-#define NUM_THREADS 16
 
 int main(){
     int i, j, k;
     double diff = 0;
     boost::numeric::ublas::matrix<float> table1 = boost::numeric::ublas::zero_matrix<double>(MAXSIZE, MAXSIZE);
     boost::numeric::ublas::matrix<float> table2 = boost::numeric::ublas::zero_matrix<double>(MAXSIZE, MAXSIZE);
-    omp_set_num_threads(NUM_THREADS);
     // iteractions
+    double start = omp_get_wtime();
     for(k = 0; k < ITERATIONS; k++){
         table1 (ROW, COL) = START;
         diff = 0.0;
@@ -37,5 +36,7 @@ int main(){
         }
         std::swap(table1, table2);
     }
+    double end = omp_get_wtime();
+    std::cout << "Time: " << end - start << std::endl;
 }
 

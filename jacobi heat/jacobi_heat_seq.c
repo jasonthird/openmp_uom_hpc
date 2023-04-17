@@ -2,6 +2,7 @@
 //ΚΩΝΣΤΑΝΤΙΝΟΣ ΜΑΡΓΑΡΙΤΗΣ sequential jacobi heat
 #include <stdio.h>
 #include <math.h>
+#include <time.h>
 
 #define maxsize 500
 #define iterations 1000000
@@ -26,6 +27,7 @@ int main(int argc, char* argv[])
     }
 
   /* repeate for each iteration */
+  __clock_t startTime = clock();
   for(k = 0; k < iterations; k++) 
   {
     
@@ -65,6 +67,8 @@ int main(int argc, char* argv[])
       for(j=0;j<maxsize;j++)
         table1[i][j]=table2[i][j];
   }
+  __clock_t endTime = clock();
+  printf("Time taken: %f seconds", (double)(endTime-startTime)/CLOCKS_PER_SEC);
 
   return 0;
 }

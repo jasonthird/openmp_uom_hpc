@@ -64,7 +64,7 @@ void mergesort(int * X, int n, int * tmp)
 }
 
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
    int n;
    int *data, *tmp;
@@ -80,12 +80,15 @@ void main(int argc, char *argv[])
    // printf("List Before Sorting...\n");
    // print_list(data, n);
 
+   clock_t start = clock();
    mergesort(data, n, tmp);
+   clock_t end = clock();
    
    checkIfSorted(data, n);
+   printf("Time taken: %f seconds for %d elements", (double)(end-start)/CLOCKS_PER_SEC, n);
    // // printf("\nList After Sorting...\n");
    // // print_list(data, n);
    // // printf("\n");
-
+   return 0;
 }
 

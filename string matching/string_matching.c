@@ -1,6 +1,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 #include <string.h>
+#include <omp.h>
 
 int main (int argc, char *argv[]) {
 	
@@ -47,17 +48,22 @@ int main (int argc, char *argv[]) {
 	// 	match[j]=0;
 	// }
 
+    //get time before parallel region
+    double start = omp_get_wtime();
 	/* Brute Force string matching */
-    #pragma omp parallel for firstprivate(pattern,pattern_size,match_size,buffer) private(i,j) shared(match,total_matches) num_threads(8) default(none) schedule(static)
+    #pragma omp parallel for firstprivate(pattern,pattern_size,match_size,buffer) private(i,j) shared(match) reduction(+:total_matches) default(none) schedule(static)
 	for (j = 0; j < match_size; ++j) {
       		for (i = 0; i < pattern_size && pattern[i] == buffer[i + j]; ++i);
       		if (i >= pattern_size) {
-                #pragma omp atomic
+                //#pragma omp atomic
          		match[j]++;
-				#pragma omp atomic
+				//#pragma omp atomic
          		total_matches++;
                 }		
-        }		
+        }
+    //get time after parallel region
+    double end = omp_get_wtime();
+    printf("Time taken: %f seconds for %ld bytes" , end-start, file_size);
 
 	// for (j = 0; j < match_size; j++){
 	// 	printf("%d", match[j]);

@@ -12,7 +12,6 @@
 #define col 50
 #define start 100
 #define accuracy 27
-#define threads 16
 
 int main()
 {
@@ -25,7 +24,8 @@ int main()
 	std::fill_n(&table1[0][0], maxsize*maxsize, 0);
 	std::fill_n(&table2[0][0], maxsize*maxsize, 0);
     k=0;
-	#pragma omp parallel shared(table1,diff,table2,k)num_threads(threads) default(none)
+	double start_time = omp_get_wtime();
+	#pragma omp parallel shared(table1,diff,table2,k) default(none)
 	{
         while (k < iterations)
 		{
@@ -64,9 +64,10 @@ int main()
                     std::swap(table1, table2);
                 }
 			}
-			#pragma omp barrier
 		}
 	}
+	double end_time = omp_get_wtime();
+	printf("Time: %f seconds", end_time - start_time);
 	delete[] table1;
 	delete[] table2;
 	return 0;
