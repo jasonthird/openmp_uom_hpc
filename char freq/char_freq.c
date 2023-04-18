@@ -13,7 +13,7 @@ int main (int argc, char *argv[]) {
 	char * buffer;
 	char * filename;
 	size_t result;
-	int i, j, freq[N];
+	long i, j,*freq;
 
         if (argc != 2) {
 		printf ("Usage : %s <file_name>\n", argv[0]);
@@ -22,6 +22,8 @@ int main (int argc, char *argv[]) {
 	filename = argv[1];
 	pFile = fopen ( filename , "rb" );
 	if (pFile==NULL) {printf ("File error\n"); return 2;}
+
+	freq = (long*) malloc (sizeof(long)*N);
 
 	// obtain file size:
 	fseek (pFile , 0 , SEEK_END);
@@ -41,7 +43,7 @@ int main (int argc, char *argv[]) {
     
     //get time before parallel region
     double start = omp_get_wtime();
-    #pragma omp parallel for reduction(+:freq[:N])
+    #pragma omp parallel for private(i) reduction(+:freq[:N]) firstprivate(buffer, file_size)
 	for (i=0; i<file_size; i++){
 		freq[buffer[i] - base]++;
 	}		
@@ -49,7 +51,7 @@ int main (int argc, char *argv[]) {
     double end = omp_get_wtime();
 
 	for (j=0; j<N; j++){
-		printf("%d = %d\n", j+base, freq[j]);
+		printf("%ld = %ld\n", j+base, freq[j]);
 	}	
     printf("Time taken: %f seconds for %ld bytes" , end-start, file_size);
 
