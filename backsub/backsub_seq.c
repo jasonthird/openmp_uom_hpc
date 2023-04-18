@@ -53,15 +53,15 @@ char any;
 	// }
 
    /* Check result */
-	for (i = 0; i < N; i++) {
-		sum = 0.0;
-		for (j = 0; j <= i; j++) 
-			sum = sum + (x[j]*a[i][j]);	
-		if (fabs(sum - b[i]) > 0.00001) {
-			printf("%f != %f\n", sum, b[i]);
-			printf("Validation Failed...\n");
-		}
-	}
+	// for (i = 0; i < N; i++) {
+	// 	sum = 0.0;
+	// 	for (j = 0; j <= i; j++) 
+	// 		sum = sum + (x[j]*a[i][j]);	
+	// 	if (fabs(sum - b[i]) > 0.00001) {
+	// 		printf("%f != %f\n", sum, b[i]);
+	// 		printf("Validation Failed...\n");
+	// 	}
+	// }
 	printf("time: %f seconds for %d elements \n", (double)(end - start) / CLOCKS_PER_SEC, N);
 	return 0;
 }

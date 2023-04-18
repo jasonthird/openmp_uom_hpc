@@ -48,9 +48,9 @@ int main (int argc, char *argv[]) {
 	//get time after
     clock_t end = clock();	
 
-	for (j=0; j<N; j++){
-		printf("%d = %d\n", j+base, freq[j]);
-	}	
+	// for (j=0; j<N; j++){
+	// 	printf("%d = %d\n", j+base, freq[j]);
+	// }	
 
 	printf("Time taken: %f seconds for %ld bytes" , (double)(end - start) / CLOCKS_PER_SEC, file_size);
 

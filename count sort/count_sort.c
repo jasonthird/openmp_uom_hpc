@@ -22,9 +22,10 @@ int main(int argc, char *argv[])
    y = ( int * ) malloc ( n * sizeof ( int ) );
 
    for (i=0; i<n; i++)
-		x[i] = n - i;
-		//x[i] = (rand() % (UPPER - LOWER + 1)) + LOWER;
+		//x[i] = n - i;
+		x[i] = (rand() % (UPPER - LOWER + 1)) + LOWER;
     
+    double start = omp_get_wtime();
     #pragma omp parallel for private(i,j,my_num,my_place) shared(x,y,n)
    for (j=0; j<n; j++) {
 
@@ -35,9 +36,12 @@ int main(int argc, char *argv[])
 			my_place++;
      y[my_place] = my_num;
    }  
+    double end = omp_get_wtime();
+
+    printf("Time: %f seconds \n", end - start);
    
-   for (i=0; i<n; i++) 
-		printf("%d\n", y[i]);
+  //  for (i=0; i<n; i++) 
+	// 	printf("%d\n", y[i]);
 			
    return 0;
 }

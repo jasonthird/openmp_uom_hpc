@@ -118,7 +118,7 @@ int main(int argc, char *argv[])
     }
     //get time after sorting
     double end = omp_get_wtime();
-    printf("Time: %f seconds for %d elements with %d threads " , end - start, n, numOfThreads);
+    printf("Time: %f seconds for %d elements with %d threads\n" , end - start, n, numOfThreads);
    
     checkIfSorted(data, n);
     // // printf("\nList After Sorting...\n");

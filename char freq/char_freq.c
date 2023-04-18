@@ -50,9 +50,9 @@ int main (int argc, char *argv[]) {
     //get time after parallel region
     double end = omp_get_wtime();
 
-	for (j=0; j<N; j++){
-		printf("%ld = %ld\n", j+base, freq[j]);
-	}	
+	// for (j=0; j<N; j++){
+	// 	printf("%ld = %ld\n", j+base, freq[j]);
+	// }	
     printf("Time taken: %f seconds for %ld bytes" , end-start, file_size);
 
 	fclose (pFile);

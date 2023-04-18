@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
    clock_t end = clock();
    
    checkIfSorted(data, n);
-   printf("Time taken: %f seconds for %d elements", (double)(end-start)/CLOCKS_PER_SEC, n);
+   printf("Time taken: %f seconds for %d elements\n", (double)(end-start)/CLOCKS_PER_SEC, n);
    // // printf("\nList After Sorting...\n");
    // // print_list(data, n);
    // // printf("\n");

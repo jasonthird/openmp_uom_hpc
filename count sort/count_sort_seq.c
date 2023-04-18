@@ -2,6 +2,7 @@
 //ΚΩΝΣΤΑΝΤΙΝΟΣ ΜΑΡΓΑΡΙΤΗΣ sequential jacobi heat
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 #define UPPER 1000
 #define LOWER 0
@@ -21,9 +22,10 @@ int main(int argc, char *argv[])
    y = ( int * ) malloc ( n * sizeof ( int ) );
 
    for (i=0; i<n; i++)
-		x[i] = n - i;
-		//x[i] = (rand() % (UPPER - LOWER + 1)) + LOWER;
-		
+		//x[i] = n - i;
+		x[i] = (rand() % (UPPER - LOWER + 1)) + LOWER;
+	
+  clock_t start = clock();
    for (j=0; j<n; j++) {
 
      my_num = x[j];
@@ -33,9 +35,10 @@ int main(int argc, char *argv[])
 			my_place++;
      y[my_place] = my_num;
    }  
-   
-   for (i=0; i<n; i++) 
-		printf("%d\n", y[i]);
+  clock_t end = clock();
+  printf("Time: %f seconds \n", (double)(end - start) / CLOCKS_PER_SEC);
+  //  for (i=0; i<n; i++) 
+	// 	printf("%d\n", y[i]);
 			
    return 0;
 }
