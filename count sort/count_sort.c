@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
    }  
     double end = omp_get_wtime();
 
-    printf("Time: %f seconds \n", end - start);
+    printf("Time taken: %f seconds \n", end - start);
    
   //  for (i=0; i<n; i++) 
 	// 	printf("%d\n", y[i]);

@@ -62,6 +62,6 @@ char any;
 	// 		printf("Validation Failed...\n");
 	// 	}
 	// }
-	printf("time: %f seconds for %d elements \n", (double)(end - start) / CLOCKS_PER_SEC, N);
+	printf("Time taken: %f seconds for %d elements \n", (double)(end - start) / CLOCKS_PER_SEC, N);
 	return 0;
 }

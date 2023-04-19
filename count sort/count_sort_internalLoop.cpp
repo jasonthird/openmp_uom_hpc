@@ -72,7 +72,7 @@ int main(int argc, char *argv[]){
     double start = omp_get_wtime();
     Count_sort(v);
     double end = omp_get_wtime();
-    std::cout << "Time: " << end - start << std::endl;
+    std::cout << "Time taken: " << end - start << std::endl;
     //write to file
     std::ofstream output("output.txt");
     for(int i = 0; i < v.size(); i++){

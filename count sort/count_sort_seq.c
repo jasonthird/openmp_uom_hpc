@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
      y[my_place] = my_num;
    }  
   clock_t end = clock();
-  printf("Time: %f seconds \n", (double)(end - start) / CLOCKS_PER_SEC);
+  printf("Time taken: %f seconds \n", (double)(end - start) / CLOCKS_PER_SEC);
   //  for (i=0; i<n; i++) 
 	// 	printf("%d\n", y[i]);
 			
