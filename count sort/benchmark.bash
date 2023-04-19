@@ -19,7 +19,7 @@ for p in *.out; do
     echo ""
     echo "-----------running $p-----------"
     echo ""
-    for i in 20000 80000 100000 300000 500000; do
+    for i in 20000 80000 100000 200000 400000; do
         echo ""
         echo "---size of array: $i---"
         echo ""

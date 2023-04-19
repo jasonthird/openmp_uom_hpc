@@ -10,14 +10,14 @@ done
 #get all .f90 files and compile them
 for i in *.f90; do
     echo "compiling $i"
-    flang -fopenmp $i -O2 -march=native -mtune=native -o ${i%.*}_gfortran.out
+    flang -fopenmp $i -O2 -march=native -mtune=native -o ${i%.*}_fortran.out
 done
 
 for p in *.out; do
     echo ""
     echo "-----------running $p-----------"
     echo ""
-    for i in 10000000 100000000 1000000000; do
+    for i in 50000000 100000000 2000000000; do
         echo ""
         echo "---size of array: $i---"
         echo ""
