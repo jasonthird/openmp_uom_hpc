@@ -1,0 +1,230 @@
+compiling char_freq.c
+compiling char_freq_seq_args.c
+
+-----------running char_freq_clang.out-----------
+
+
+---size of array: 100000000---
+
+number of threads: 1
+file size is 100000000
+Time taken: 0.029533 seconds for 100000000 bytes
+Total Time: .066781377 seconds
+
+number of threads: 2
+file size is 100000000
+Time taken: 0.015688 seconds for 100000000 bytes
+Total Time: .054847232 seconds
+
+number of threads: 4
+file size is 100000000
+Time taken: 0.008530 seconds for 100000000 bytes
+Total Time: .045819282 seconds
+
+number of threads: 8
+file size is 100000000
+Time taken: 0.005472 seconds for 100000000 bytes
+Total Time: .043010529 seconds
+
+number of threads: 16
+file size is 100000000
+Time taken: 0.005263 seconds for 100000000 bytes
+Total Time: .044393880 seconds
+
+
+---size of array: 1000000000---
+
+number of threads: 1
+file size is 1000000000
+Time taken: 0.268943 seconds for 1000000000 bytes
+Total Time: .646181775 seconds
+
+number of threads: 2
+file size is 1000000000
+Time taken: 0.136715 seconds for 1000000000 bytes
+Total Time: .513229977 seconds
+
+number of threads: 4
+file size is 1000000000
+Time taken: 0.071245 seconds for 1000000000 bytes
+Total Time: .447065045 seconds
+
+number of threads: 8
+file size is 1000000000
+Time taken: 0.039583 seconds for 1000000000 bytes
+Total Time: .417901115 seconds
+
+number of threads: 16
+file size is 1000000000
+Time taken: 0.038025 seconds for 1000000000 bytes
+Total Time: .415029903 seconds
+
+
+---size of array: 2500000000---
+
+number of threads: 1
+file size is 2500000000
+Time taken: 0.665946 seconds for 2500000000 bytes
+Total Time: 1.585463905 seconds
+
+number of threads: 2
+file size is 2500000000
+Time taken: 0.357179 seconds for 2500000000 bytes
+Total Time: 1.285606461 seconds
+
+number of threads: 4
+file size is 2500000000
+Time taken: 0.180648 seconds for 2500000000 bytes
+Total Time: 1.088811439 seconds
+
+number of threads: 8
+file size is 2500000000
+Time taken: 0.093459 seconds for 2500000000 bytes
+Total Time: 1.013779558 seconds
+
+number of threads: 16
+file size is 2500000000
+Time taken: 0.083600 seconds for 2500000000 bytes
+Total Time: .994717227 seconds
+
+
+-----------running char_freq_gcc.out-----------
+
+
+---size of array: 100000000---
+
+number of threads: 1
+file size is 100000000
+Time taken: 0.031073 seconds for 100000000 bytes
+Total Time: .069557409 seconds
+
+number of threads: 2
+file size is 100000000
+Time taken: 0.015691 seconds for 100000000 bytes
+Total Time: .053017688 seconds
+
+number of threads: 4
+file size is 100000000
+Time taken: 0.007999 seconds for 100000000 bytes
+Total Time: .045478199 seconds
+
+number of threads: 8
+file size is 100000000
+Time taken: 0.004328 seconds for 100000000 bytes
+Total Time: .041601808 seconds
+
+number of threads: 16
+file size is 100000000
+Time taken: 0.004354 seconds for 100000000 bytes
+Total Time: .041378477 seconds
+
+
+---size of array: 1000000000---
+
+number of threads: 1
+file size is 1000000000
+Time taken: 0.306843 seconds for 1000000000 bytes
+Total Time: .695498638 seconds
+
+number of threads: 2
+file size is 1000000000
+Time taken: 0.154240 seconds for 1000000000 bytes
+Total Time: .530450896 seconds
+
+number of threads: 4
+file size is 1000000000
+Time taken: 0.079176 seconds for 1000000000 bytes
+Total Time: .456804755 seconds
+
+number of threads: 8
+file size is 1000000000
+Time taken: 0.064955 seconds for 1000000000 bytes
+Total Time: .447275239 seconds
+
+number of threads: 16
+file size is 1000000000
+Time taken: 0.038732 seconds for 1000000000 bytes
+Total Time: .415068555 seconds
+
+
+---size of array: 2500000000---
+
+number of threads: 1
+file size is 2500000000
+Time taken: 0.767150 seconds for 2500000000 bytes
+Total Time: 1.678018736 seconds
+
+number of threads: 2
+file size is 2500000000
+Time taken: 0.384854 seconds for 2500000000 bytes
+Total Time: 1.298721573 seconds
+
+number of threads: 4
+file size is 2500000000
+Time taken: 0.197183 seconds for 2500000000 bytes
+Total Time: 1.103566832 seconds
+
+number of threads: 8
+file size is 2500000000
+Time taken: 0.099975 seconds for 2500000000 bytes
+Total Time: 1.018604553 seconds
+
+number of threads: 16
+file size is 2500000000
+Time taken: 0.096737 seconds for 2500000000 bytes
+Total Time: 1.011176534 seconds
+
+
+-----------running char_freq_seq_args_clang.out-----------
+
+
+---size of array: 100000000---
+
+char_freq_seq_args_clang.out, N = 100000000
+file size is 100000000
+Time taken: 0.026074 seconds for 100000000 bytes
+Total Time: .064404959 seconds
+
+
+---size of array: 1000000000---
+
+char_freq_seq_args_clang.out, N = 1000000000
+file size is 1000000000
+Time taken: 0.253105 seconds for 1000000000 bytes
+Total Time: .630852311 seconds
+
+
+---size of array: 2500000000---
+
+char_freq_seq_args_clang.out, N = 2500000000
+file size is 2500000000
+Time taken: 0.634253 seconds for 2500000000 bytes
+Total Time: 1.553431865 seconds
+
+
+-----------running char_freq_seq_args_gcc.out-----------
+
+
+---size of array: 100000000---
+
+char_freq_seq_args_gcc.out, N = 100000000
+file size is 100000000
+Time taken: 0.000000 seconds for 100000000 bytes
+Total Time: .038381844 seconds
+
+
+---size of array: 1000000000---
+
+char_freq_seq_args_gcc.out, N = 1000000000
+file size is 1000000000
+Time taken: 0.000001 seconds for 1000000000 bytes
+Total Time: .376470002 seconds
+
+
+---size of array: 2500000000---
+
+char_freq_seq_args_gcc.out, N = 2500000000
+file size is 2500000000
+Time taken: 0.000001 seconds for 2500000000 bytes
+Total Time: .908271789 seconds
+

@@ -39,4 +39,11 @@
 
 # uftrace.data folder and files
 uftrace.data
-*.txt
+
+#input and output files
+*file.txt
+*output.txt
+*input.txt
+*in.txt
+*out.txt
+

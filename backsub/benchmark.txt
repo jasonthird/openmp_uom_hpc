@@ -1,0 +1,262 @@
+compiling backsub.c
+compiling backsub_seq.c
+
+-----------running backsub_clang.out-----------
+
+
+---size of array: 1000---
+
+number of threads: 1
+Time taken: 0.001447 seconds for 1000 elements 
+Total Time: .005986814 seconds
+
+number of threads: 2
+Time taken: 0.001661 seconds for 1000 elements 
+Total Time: .006198535 seconds
+
+number of threads: 4
+Time taken: 0.001635 seconds for 1000 elements 
+Total Time: .006049724 seconds
+
+number of threads: 8
+Time taken: 0.002384 seconds for 1000 elements 
+Total Time: .006983041 seconds
+
+number of threads: 16
+Time taken: 0.002876 seconds for 1000 elements 
+Total Time: .007567545 seconds
+
+
+---size of array: 11000---
+
+number of threads: 1
+Time taken: 0.057851 seconds for 11000 elements 
+Total Time: .480539005 seconds
+
+number of threads: 2
+Time taken: 0.035120 seconds for 11000 elements 
+Total Time: .467425279 seconds
+
+number of threads: 4
+Time taken: 0.024049 seconds for 11000 elements 
+Total Time: .457932190 seconds
+
+number of threads: 8
+Time taken: 0.026714 seconds for 11000 elements 
+Total Time: .459956435 seconds
+
+number of threads: 16
+Time taken: 0.031203 seconds for 11000 elements 
+Total Time: .464595338 seconds
+
+
+---size of array: 30000---
+
+number of threads: 1
+Time taken: 0.412971 seconds for 30000 elements 
+Total Time: 3.537187912 seconds
+
+number of threads: 2
+Time taken: 0.223650 seconds for 30000 elements 
+Total Time: 3.372130215 seconds
+
+number of threads: 4
+Time taken: 0.129491 seconds for 30000 elements 
+Total Time: 3.224504754 seconds
+
+number of threads: 8
+Time taken: 0.117664 seconds for 30000 elements 
+Total Time: 3.149621664 seconds
+
+number of threads: 16
+Time taken: 0.142019 seconds for 30000 elements 
+Total Time: 3.254952928 seconds
+
+
+---size of array: 70000---
+
+number of threads: 1
+Time taken: 2.229680 seconds for 70000 elements 
+Total Time: 18.453722602 seconds
+
+number of threads: 2
+Time taken: 1.162129 seconds for 70000 elements 
+Total Time: 17.415339412 seconds
+
+number of threads: 4
+Time taken: 0.628572 seconds for 70000 elements 
+Total Time: 16.667137006 seconds
+
+number of threads: 8
+Time taken: 0.496880 seconds for 70000 elements 
+Total Time: 16.987342576 seconds
+
+number of threads: 16
+Time taken: 0.548684 seconds for 70000 elements 
+Total Time: 17.138030515 seconds
+
+
+-----------running backsub_gcc.out-----------
+
+
+---size of array: 1000---
+
+number of threads: 1
+Time taken: 0.000477 seconds for 1000 elements 
+Total Time: .005102807 seconds
+
+number of threads: 2
+Time taken: 0.000789 seconds for 1000 elements 
+Total Time: .005421140 seconds
+
+number of threads: 4
+Time taken: 0.000646 seconds for 1000 elements 
+Total Time: .005556460 seconds
+
+number of threads: 8
+Time taken: 0.001494 seconds for 1000 elements 
+Total Time: .006111335 seconds
+
+number of threads: 16
+Time taken: 0.002581 seconds for 1000 elements 
+Total Time: .007122802 seconds
+
+
+---size of array: 11000---
+
+number of threads: 1
+Time taken: 0.043506 seconds for 11000 elements 
+Total Time: .490415744 seconds
+
+number of threads: 2
+Time taken: 0.026335 seconds for 11000 elements 
+Total Time: .462792781 seconds
+
+number of threads: 4
+Time taken: 0.018676 seconds for 11000 elements 
+Total Time: .462231116 seconds
+
+number of threads: 8
+Time taken: 0.019137 seconds for 11000 elements 
+Total Time: .449337072 seconds
+
+number of threads: 16
+Time taken: 0.026258 seconds for 11000 elements 
+Total Time: .468758685 seconds
+
+
+---size of array: 30000---
+
+number of threads: 1
+Time taken: 0.320102 seconds for 30000 elements 
+Total Time: 3.582861143 seconds
+
+number of threads: 2
+Time taken: 0.172739 seconds for 30000 elements 
+Total Time: 3.359468876 seconds
+
+number of threads: 4
+Time taken: 0.103907 seconds for 30000 elements 
+Total Time: 3.311463648 seconds
+
+number of threads: 8
+Time taken: 0.099687 seconds for 30000 elements 
+Total Time: 3.308944105 seconds
+
+number of threads: 16
+Time taken: 0.127615 seconds for 30000 elements 
+Total Time: 3.378772464 seconds
+
+
+---size of array: 70000---
+
+number of threads: 1
+Time taken: 1.716568 seconds for 70000 elements 
+Total Time: 18.431150358 seconds
+
+number of threads: 2
+Time taken: 0.891780 seconds for 70000 elements 
+Total Time: 17.509555364 seconds
+
+number of threads: 4
+Time taken: 0.497651 seconds for 70000 elements 
+Total Time: 17.060127937 seconds
+
+number of threads: 8
+Time taken: 0.463153 seconds for 70000 elements 
+Total Time: 17.138708467 seconds
+
+number of threads: 16
+Time taken: 0.511324 seconds for 70000 elements 
+Total Time: 17.385033286 seconds
+
+
+-----------running backsub_seq_clang.out-----------
+
+
+---size of array: 1000---
+
+backsub_seq_clang.out, N = 1000
+Time taken: 0.000404 seconds for 1000 elements 
+
+Total Time: .005117468 seconds
+
+
+---size of array: 11000---
+
+backsub_seq_clang.out, N = 11000
+Time taken: 0.053571 seconds for 11000 elements 
+
+Total Time: .487521785 seconds
+
+
+---size of array: 30000---
+
+backsub_seq_clang.out, N = 30000
+Time taken: 0.403142 seconds for 30000 elements 
+
+Total Time: 3.526455435 seconds
+
+
+---size of array: 70000---
+
+backsub_seq_clang.out, N = 70000
+Time taken: 2.200410 seconds for 70000 elements 
+
+Total Time: 18.500920067 seconds
+
+
+-----------running backsub_seq_gcc.out-----------
+
+
+---size of array: 1000---
+
+backsub_seq_gcc.out, N = 1000
+Time taken: 0.000321 seconds for 1000 elements 
+
+Total Time: .004978266 seconds
+
+
+---size of array: 11000---
+
+backsub_seq_gcc.out, N = 11000
+Time taken: 0.041189 seconds for 11000 elements 
+
+Total Time: .486845584 seconds
+
+
+---size of array: 30000---
+
+backsub_seq_gcc.out, N = 30000
+Time taken: 0.309907 seconds for 30000 elements 
+
+Total Time: 3.465955177 seconds
+
+
+---size of array: 70000---
+
+backsub_seq_gcc.out, N = 70000
+Time taken: 1.686862 seconds for 70000 elements 
+
+Total Time: 18.090640720 seconds
+

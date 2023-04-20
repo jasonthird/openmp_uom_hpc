@@ -1,0 +1,252 @@
+compiling jacobi_heat_seq.c
+compiling jacobi_heat_chatgptCPP.cpp
+compiling jacobi_heat.cpp
+
+-----------running jacobi_heat_chatgptCPP_clang++.out-----------
+
+number of threads: 1
+Convergence in 15333 iterations
+Time taken: 2368006 microseconds
+
+Total Time: 2.377584152 seconds
+
+number of threads: 2
+Convergence in 15333 iterations
+Time taken: 2336964 microseconds
+
+Total Time: 2.346350695 seconds
+
+number of threads: 4
+Convergence in 15333 iterations
+Time taken: 2344503 microseconds
+
+Total Time: 2.353954460 seconds
+
+number of threads: 8
+Convergence in 15333 iterations
+Time taken: 2380529 microseconds
+
+Total Time: 2.389865806 seconds
+
+number of threads: 16
+Convergence in 15333 iterations
+Time taken: 2336907 microseconds
+
+Total Time: 2.346103005 seconds
+
+
+-----------running jacobi_heat_chatgptCPP_g++.out-----------
+
+number of threads: 1
+Convergence in 15333 iterations
+Time taken: 1841951 microseconds
+
+Total Time: 1.849414302 seconds
+
+number of threads: 2
+Convergence in 15333 iterations
+Time taken: 1815482 microseconds
+
+Total Time: 1.823114989 seconds
+
+number of threads: 4
+Convergence in 15333 iterations
+Time taken: 1816872 microseconds
+
+Total Time: 1.824329012 seconds
+
+number of threads: 8
+Convergence in 15333 iterations
+Time taken: 1839552 microseconds
+
+Total Time: 1.847251695 seconds
+
+number of threads: 16
+Convergence in 15333 iterations
+Time taken: 1827171 microseconds
+
+Total Time: 1.834661222 seconds
+
+
+-----------running jacobi_heat_clang++.out-----------
+
+number of threads: 1
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398077369447491947
+
+Time taken: 10.982032 seconds
+Total Time: 10.991087333 seconds
+
+number of threads: 2
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398092575062037213
+
+Time taken: 5.516732 seconds
+Total Time: 5.525992300 seconds
+
+number of threads: 4
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398096767264178197
+
+Time taken: 2.817307 seconds
+Total Time: 2.826367842 seconds
+
+number of threads: 8
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398098721256701538
+
+Time taken: 1.446228 seconds
+Total Time: 1.455016417 seconds
+
+number of threads: 16
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398098614675291174
+
+Time taken: 0.806623 seconds
+Total Time: .815458335 seconds
+
+
+-----------running jacobi_heat_g++.out-----------
+
+number of threads: 1
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398077369447491947
+
+Time taken: 3.375522 seconds
+Total Time: 3.383169535 seconds
+
+number of threads: 2
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398092575062037213
+
+Time taken: 1.694331 seconds
+Total Time: 1.702309565 seconds
+
+number of threads: 4
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398096767264178197
+
+Time taken: 0.875964 seconds
+Total Time: .883938530 seconds
+
+number of threads: 8
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398098721256701538
+
+Time taken: 0.496070 seconds
+Total Time: .503775204 seconds
+
+number of threads: 16
+
+
+Convergence in 15333 iterations
+
+diff = 26.9999963398098614675291174
+
+Time taken: 0.340260 seconds
+Total Time: .347971778 seconds
+
+
+-----------running jacobi_heat_seq_clang.out-----------
+
+jacobi_heat_seq_clang.out, N = jacobi_heat.cpp
+
+
+Convergence in 15333 iterations
+
+Time taken: 3.915750 seconds
+Total Time: 3.922471699 seconds
+
+
+-----------running jacobi_heat_seq_gcc.out-----------
+
+jacobi_heat_seq_gcc.out, N = jacobi_heat.cpp
+
+
+Convergence in 15333 iterations
+
+Time taken: 3.065611 seconds
+Total Time: 3.070696479 seconds
+
+number of threads: 1
+
+
+Convergence in 15334 iterations
+
+
+diff = 26.999996339809826
+Time taken: 8.30129885673523
+
+Total Time: 8.862928158 seconds
+
+number of threads: 2
+
+
+Convergence in 15334 iterations
+
+
+diff = 26.999996339809844
+Time taken: 6.543410062789917
+
+Total Time: 7.096362102 seconds
+
+number of threads: 4
+
+
+Convergence in 15334 iterations
+
+
+diff = 26.999996339809847
+Time taken: 5.565493106842041
+
+Total Time: 6.117447690 seconds
+
+number of threads: 8
+
+
+Convergence in 15334 iterations
+
+
+diff = 26.999996339809858
+Time taken: 5.2550530433654785
+
+Total Time: 5.816209331 seconds
+
+number of threads: 16
+
+
+Convergence in 15334 iterations
+
+
+diff = 26.999996339809854
+Time taken: 4.850647211074829
+
+Total Time: 5.417021882 seconds
+

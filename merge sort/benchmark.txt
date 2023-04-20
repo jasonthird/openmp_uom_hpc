@@ -1,0 +1,591 @@
+compiling mergesort.c
+compiling mergesort_seq.c
+compiling *.cpp
+
+-----------running mergesort_clang.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.002155 seconds for 20000 elements with 1 threads
+List is sorted!
+Total Time: .003405558 seconds
+
+number of threads: 2
+Time taken: 0.004716 seconds for 20000 elements with 2 threads
+List is sorted!
+Total Time: .006083900 seconds
+
+number of threads: 4
+Time taken: 0.001817 seconds for 20000 elements with 4 threads
+List is sorted!
+Total Time: .003142876 seconds
+
+number of threads: 8
+Time taken: 0.001670 seconds for 20000 elements with 8 threads
+List is sorted!
+Total Time: .003081735 seconds
+
+number of threads: 16
+Time taken: 0.005075 seconds for 20000 elements with 16 threads
+List is sorted!
+Total Time: .006656094 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 0.006031 seconds for 80000 elements with 1 threads
+List is sorted!
+Total Time: .007847844 seconds
+
+number of threads: 2
+Time taken: 0.003845 seconds for 80000 elements with 2 threads
+List is sorted!
+Total Time: .005753327 seconds
+
+number of threads: 4
+Time taken: 0.002824 seconds for 80000 elements with 4 threads
+List is sorted!
+Total Time: .004663198 seconds
+
+number of threads: 8
+Time taken: 0.002420 seconds for 80000 elements with 8 threads
+List is sorted!
+Total Time: .004373236 seconds
+
+number of threads: 16
+Time taken: 0.003164 seconds for 80000 elements with 16 threads
+List is sorted!
+Total Time: .005064212 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 0.008119 seconds for 100000 elements with 1 threads
+List is sorted!
+Total Time: .009886940 seconds
+
+number of threads: 2
+Time taken: 0.004816 seconds for 100000 elements with 2 threads
+List is sorted!
+Total Time: .006767665 seconds
+
+number of threads: 4
+Time taken: 0.003335 seconds for 100000 elements with 4 threads
+List is sorted!
+Total Time: .005156762 seconds
+
+number of threads: 8
+Time taken: 0.002825 seconds for 100000 elements with 8 threads
+List is sorted!
+Total Time: .004902779 seconds
+
+number of threads: 16
+Time taken: 0.003612 seconds for 100000 elements with 16 threads
+List is sorted!
+Total Time: .005703057 seconds
+
+
+---size of array: 300000---
+
+number of threads: 1
+Time taken: 0.019922 seconds for 300000 elements with 1 threads
+List is sorted!
+Total Time: .023214618 seconds
+
+number of threads: 2
+Time taken: 0.011082 seconds for 300000 elements with 2 threads
+List is sorted!
+Total Time: .014392857 seconds
+
+number of threads: 4
+Time taken: 0.007289 seconds for 300000 elements with 4 threads
+List is sorted!
+Total Time: .010641547 seconds
+
+number of threads: 8
+Time taken: 0.005448 seconds for 300000 elements with 8 threads
+List is sorted!
+Total Time: .008903293 seconds
+
+number of threads: 16
+Time taken: 0.006127 seconds for 300000 elements with 16 threads
+List is sorted!
+Total Time: .009850460 seconds
+
+
+---size of array: 500000---
+
+number of threads: 1
+Time taken: 0.042193 seconds for 500000 elements with 1 threads
+List is sorted!
+Total Time: .046792020 seconds
+
+number of threads: 2
+Time taken: 0.022890 seconds for 500000 elements with 2 threads
+List is sorted!
+Total Time: .027659415 seconds
+
+number of threads: 4
+Time taken: 0.014166 seconds for 500000 elements with 4 threads
+List is sorted!
+Total Time: .018987994 seconds
+
+number of threads: 8
+Time taken: 0.009523 seconds for 500000 elements with 8 threads
+List is sorted!
+Total Time: .014368457 seconds
+
+number of threads: 16
+Time taken: 0.010390 seconds for 500000 elements with 16 threads
+List is sorted!
+Total Time: .015713668 seconds
+
+
+---size of array: 1000000---
+
+number of threads: 1
+Time taken: 0.089200 seconds for 1000000 elements with 1 threads
+List is sorted!
+Total Time: .096860226 seconds
+
+number of threads: 2
+Time taken: 0.046116 seconds for 1000000 elements with 2 threads
+List is sorted!
+Total Time: .054121400 seconds
+
+number of threads: 4
+Time taken: 0.027673 seconds for 1000000 elements with 4 threads
+List is sorted!
+Total Time: .035849171 seconds
+
+number of threads: 8
+Time taken: 0.017365 seconds for 1000000 elements with 8 threads
+List is sorted!
+Total Time: .025455157 seconds
+
+number of threads: 16
+Time taken: 0.019193 seconds for 1000000 elements with 16 threads
+List is sorted!
+Total Time: .028309400 seconds
+
+
+---size of array: 5000000---
+
+number of threads: 1
+Time taken: 0.363250 seconds for 5000000 elements with 1 threads
+List is sorted!
+Total Time: .396152707 seconds
+
+number of threads: 2
+Time taken: 0.194281 seconds for 5000000 elements with 2 threads
+List is sorted!
+Total Time: .227873221 seconds
+
+number of threads: 4
+Time taken: 0.109429 seconds for 5000000 elements with 4 threads
+List is sorted!
+Total Time: .143856708 seconds
+
+number of threads: 8
+Time taken: 0.073724 seconds for 5000000 elements with 8 threads
+List is sorted!
+Total Time: .108227569 seconds
+
+number of threads: 16
+Time taken: 0.087560 seconds for 5000000 elements with 16 threads
+List is sorted!
+Total Time: .125086466 seconds
+
+
+---size of array: 300000000---
+
+number of threads: 1
+Time taken: 26.204260 seconds for 300000000 elements with 1 threads
+List is sorted!
+Total Time: 28.119348095 seconds
+
+number of threads: 2
+Time taken: 13.823844 seconds for 300000000 elements with 2 threads
+List is sorted!
+Total Time: 15.781708016 seconds
+
+number of threads: 4
+Time taken: 7.965435 seconds for 300000000 elements with 4 threads
+List is sorted!
+Total Time: 9.949442505 seconds
+
+number of threads: 8
+Time taken: 5.786289 seconds for 300000000 elements with 8 threads
+List is sorted!
+Total Time: 7.688909124 seconds
+
+number of threads: 16
+Time taken: 4.868832 seconds for 300000000 elements with 16 threads
+List is sorted!
+Total Time: 6.839781757 seconds
+
+
+-----------running mergesort_gcc.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.013961 seconds for 20000 elements with 1 threads
+List is sorted!
+Total Time: .015156223 seconds
+
+number of threads: 2
+Time taken: 0.013924 seconds for 20000 elements with 2 threads
+List is sorted!
+Total Time: .015206884 seconds
+
+number of threads: 4
+Time taken: 0.005770 seconds for 20000 elements with 4 threads
+List is sorted!
+Total Time: .007130528 seconds
+
+number of threads: 8
+Time taken: 0.005775 seconds for 20000 elements with 8 threads
+List is sorted!
+Total Time: .007058447 seconds
+
+number of threads: 16
+Time taken: 0.009206 seconds for 20000 elements with 16 threads
+List is sorted!
+Total Time: .012608022 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 0.045999 seconds for 80000 elements with 1 threads
+List is sorted!
+Total Time: .047768819 seconds
+
+number of threads: 2
+Time taken: 0.025196 seconds for 80000 elements with 2 threads
+List is sorted!
+Total Time: .027063810 seconds
+
+number of threads: 4
+Time taken: 0.012497 seconds for 80000 elements with 4 threads
+List is sorted!
+Total Time: .014418688 seconds
+
+number of threads: 8
+Time taken: 0.007537 seconds for 80000 elements with 8 threads
+List is sorted!
+Total Time: .009274846 seconds
+
+number of threads: 16
+Time taken: 0.005534 seconds for 80000 elements with 16 threads
+List is sorted!
+Total Time: .007594502 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 0.061321 seconds for 100000 elements with 1 threads
+List is sorted!
+Total Time: .063226005 seconds
+
+number of threads: 2
+Time taken: 0.032217 seconds for 100000 elements with 2 threads
+List is sorted!
+Total Time: .034041836 seconds
+
+number of threads: 4
+Time taken: 0.022736 seconds for 100000 elements with 4 threads
+List is sorted!
+Total Time: .024611880 seconds
+
+number of threads: 8
+Time taken: 0.010321 seconds for 100000 elements with 8 threads
+List is sorted!
+Total Time: .012159589 seconds
+
+number of threads: 16
+Time taken: 0.009084 seconds for 100000 elements with 16 threads
+List is sorted!
+Total Time: .011465594 seconds
+
+
+---size of array: 300000---
+
+number of threads: 1
+Time taken: 0.140331 seconds for 300000 elements with 1 threads
+List is sorted!
+Total Time: .143680809 seconds
+
+number of threads: 2
+Time taken: 0.071501 seconds for 300000 elements with 2 threads
+List is sorted!
+Total Time: .075050191 seconds
+
+number of threads: 4
+Time taken: 0.038926 seconds for 300000 elements with 4 threads
+List is sorted!
+Total Time: .042316725 seconds
+
+number of threads: 8
+Time taken: 0.022590 seconds for 300000 elements with 8 threads
+List is sorted!
+Total Time: .025765510 seconds
+
+number of threads: 16
+Time taken: 0.015519 seconds for 300000 elements with 16 threads
+List is sorted!
+Total Time: .019053895 seconds
+
+
+---size of array: 500000---
+
+number of threads: 1
+Time taken: 0.373906 seconds for 500000 elements with 1 threads
+List is sorted!
+Total Time: .378758023 seconds
+
+number of threads: 2
+Time taken: 0.191825 seconds for 500000 elements with 2 threads
+List is sorted!
+Total Time: .196876712 seconds
+
+number of threads: 4
+Time taken: 0.102330 seconds for 500000 elements with 4 threads
+List is sorted!
+Total Time: .107809558 seconds
+
+number of threads: 8
+Time taken: 0.053757 seconds for 500000 elements with 8 threads
+List is sorted!
+Total Time: .058671778 seconds
+
+number of threads: 16
+Time taken: 0.034125 seconds for 500000 elements with 16 threads
+List is sorted!
+Total Time: .039536622 seconds
+
+
+---size of array: 1000000---
+
+number of threads: 1
+Time taken: 0.745129 seconds for 1000000 elements with 1 threads
+List is sorted!
+Total Time: .752797758 seconds
+
+number of threads: 2
+Time taken: 0.377316 seconds for 1000000 elements with 2 threads
+List is sorted!
+Total Time: .385151825 seconds
+
+number of threads: 4
+Time taken: 0.194884 seconds for 1000000 elements with 4 threads
+List is sorted!
+Total Time: .203012772 seconds
+
+number of threads: 8
+Time taken: 0.105277 seconds for 1000000 elements with 8 threads
+List is sorted!
+Total Time: .113973088 seconds
+
+number of threads: 16
+Time taken: 0.064447 seconds for 1000000 elements with 16 threads
+List is sorted!
+Total Time: .074687228 seconds
+
+
+---size of array: 5000000---
+
+number of threads: 1
+Time taken: 2.473297 seconds for 5000000 elements with 1 threads
+List is sorted!
+Total Time: 2.505591697 seconds
+
+number of threads: 2
+Time taken: 1.269877 seconds for 5000000 elements with 2 threads
+List is sorted!
+Total Time: 1.304084887 seconds
+
+number of threads: 4
+Time taken: 0.656905 seconds for 5000000 elements with 4 threads
+List is sorted!
+Total Time: .689268931 seconds
+
+number of threads: 8
+Time taken: 0.353215 seconds for 5000000 elements with 8 threads
+List is sorted!
+Total Time: .387609245 seconds
+
+number of threads: 16
+Time taken: 0.218099 seconds for 5000000 elements with 16 threads
+List is sorted!
+Total Time: .252609467 seconds
+
+
+---size of array: 300000000---
+
+number of threads: 1
+Time taken: 145.167812 seconds for 300000000 elements with 1 threads
+List is sorted!
+Total Time: 146.973371416 seconds
+
+number of threads: 2
+Time taken: 73.920136 seconds for 300000000 elements with 2 threads
+List is sorted!
+Total Time: 75.723935266 seconds
+
+number of threads: 4
+Time taken: 38.559904 seconds for 300000000 elements with 4 threads
+List is sorted!
+Total Time: 40.296587056 seconds
+
+number of threads: 8
+Time taken: 20.638637 seconds for 300000000 elements with 8 threads
+List is sorted!
+Total Time: 22.399309822 seconds
+
+number of threads: 16
+Time taken: 12.429024 seconds for 300000000 elements with 16 threads
+List is sorted!
+Total Time: 14.200455147 seconds
+
+
+-----------running mergesort_seq_clang.out-----------
+
+
+---size of array: 20000---
+
+mergesort_seq_clang.out, N = 20000
+List is sorted!
+Time taken: 0.000788 seconds for 20000 elements
+Total Time: .002036276 seconds
+
+
+---size of array: 80000---
+
+mergesort_seq_clang.out, N = 80000
+List is sorted!
+Time taken: 0.003292 seconds for 80000 elements
+Total Time: .004791110 seconds
+
+
+---size of array: 100000---
+
+mergesort_seq_clang.out, N = 100000
+List is sorted!
+Time taken: 0.004206 seconds for 100000 elements
+Total Time: .005857428 seconds
+
+
+---size of array: 300000---
+
+mergesort_seq_clang.out, N = 300000
+List is sorted!
+Time taken: 0.013542 seconds for 300000 elements
+Total Time: .016700197 seconds
+
+
+---size of array: 500000---
+
+mergesort_seq_clang.out, N = 500000
+List is sorted!
+Time taken: 0.023639 seconds for 500000 elements
+Total Time: .028121341 seconds
+
+
+---size of array: 1000000---
+
+mergesort_seq_clang.out, N = 1000000
+List is sorted!
+Time taken: 0.049117 seconds for 1000000 elements
+Total Time: .057282309 seconds
+
+
+---size of array: 5000000---
+
+mergesort_seq_clang.out, N = 5000000
+List is sorted!
+Time taken: 0.266585 seconds for 5000000 elements
+Total Time: .301766753 seconds
+
+
+---size of array: 300000000---
+
+mergesort_seq_clang.out, N = 300000000
+List is sorted!
+Time taken: 19.676649 seconds for 300000000 elements
+Total Time: 21.541901797 seconds
+
+
+-----------running mergesort_seq_gcc.out-----------
+
+
+---size of array: 20000---
+
+mergesort_seq_gcc.out, N = 20000
+List is sorted!
+Time taken: 0.001068 seconds for 20000 elements
+Total Time: .002360320 seconds
+
+
+---size of array: 80000---
+
+mergesort_seq_gcc.out, N = 80000
+List is sorted!
+Time taken: 0.004402 seconds for 80000 elements
+Total Time: .005862308 seconds
+
+
+---size of array: 100000---
+
+mergesort_seq_gcc.out, N = 100000
+List is sorted!
+Time taken: 0.005567 seconds for 100000 elements
+Total Time: .007404501 seconds
+
+
+---size of array: 300000---
+
+mergesort_seq_gcc.out, N = 300000
+List is sorted!
+Time taken: 0.018353 seconds for 300000 elements
+Total Time: .021543736 seconds
+
+
+---size of array: 500000---
+
+mergesort_seq_gcc.out, N = 500000
+List is sorted!
+Time taken: 0.031532 seconds for 500000 elements
+Total Time: .036074276 seconds
+
+
+---size of array: 1000000---
+
+mergesort_seq_gcc.out, N = 1000000
+List is sorted!
+Time taken: 0.065845 seconds for 1000000 elements
+Total Time: .073336142 seconds
+
+
+---size of array: 5000000---
+
+mergesort_seq_gcc.out, N = 5000000
+List is sorted!
+Time taken: 0.375020 seconds for 5000000 elements
+Total Time: .412818955 seconds
+
+
+---size of array: 300000000---
+
+mergesort_seq_gcc.out, N = 300000000
+List is sorted!
+Time taken: 28.067926 seconds for 300000000 elements
+Total Time: 29.977219215 seconds
+

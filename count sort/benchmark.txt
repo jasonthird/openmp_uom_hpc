@@ -1,0 +1,1025 @@
+compiling count_sort.c
+compiling count_sort_seq.c
+compiling count_sort.cpp
+compiling count_sort_internalLoop.cpp
+compiling count_sort_memcpy.cpp
+
+-----------running count_sort_clang++.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.0448701
+Total Time: .081194936 seconds
+
+number of threads: 2
+Time taken: 0.0232332
+Total Time: .053630912 seconds
+
+number of threads: 4
+Time taken: 0.0120449
+Total Time: .043854483 seconds
+
+number of threads: 8
+Time taken: 0.0117731
+Total Time: .041664876 seconds
+
+number of threads: 16
+Time taken: 0.00713301
+Total Time: .056521577 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 0.695963
+Total Time: .847702936 seconds
+
+number of threads: 2
+Time taken: 0.360648
+Total Time: .478323737 seconds
+
+number of threads: 4
+Time taken: 0.179081
+Total Time: .296079563 seconds
+
+number of threads: 8
+Time taken: 0.17529
+Total Time: .293982117 seconds
+
+number of threads: 16
+Time taken: 0.0913501
+Total Time: .308040838 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 1.06786
+Total Time: 1.212252781 seconds
+
+number of threads: 2
+Time taken: 0.542175
+Total Time: .690324226 seconds
+
+number of threads: 4
+Time taken: 0.281661
+Total Time: .429268212 seconds
+
+number of threads: 8
+Time taken: 0.274298
+Total Time: .427329065 seconds
+
+number of threads: 16
+Time taken: 0.145654
+Total Time: .369370724 seconds
+
+
+---size of array: 200000---
+
+number of threads: 1
+Time taken: 4.31963
+Total Time: 4.605862807 seconds
+
+number of threads: 2
+Time taken: 2.17535
+Total Time: 2.465747069 seconds
+
+number of threads: 4
+Time taken: 1.13154
+Total Time: 1.425606199 seconds
+
+number of threads: 8
+Time taken: 0.566215
+Total Time: .855198869 seconds
+
+number of threads: 16
+Time taken: 0.550509
+Total Time: 1.001684155 seconds
+
+
+---size of array: 400000---
+
+number of threads: 1
+Time taken: 17.0967
+Total Time: 17.659656824 seconds
+
+number of threads: 2
+Time taken: 8.66907
+Total Time: 9.238819284 seconds
+
+number of threads: 4
+Time taken: 4.46478
+Total Time: 5.036486450 seconds
+
+number of threads: 8
+Time taken: 2.26287
+Total Time: 2.833895322 seconds
+
+number of threads: 16
+Time taken: 2.20498
+Total Time: 2.945199415 seconds
+
+
+-----------running count_sort_clang.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.093773 seconds 
+Total Time: .095065829 seconds
+
+number of threads: 2
+Time taken: 0.049094 seconds 
+Total Time: .050298182 seconds
+
+number of threads: 4
+Time taken: 0.025209 seconds 
+Total Time: .026455221 seconds
+
+number of threads: 8
+Time taken: 0.013458 seconds 
+Total Time: .014676763 seconds
+
+number of threads: 16
+Time taken: 0.013889 seconds 
+Total Time: .015051027 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 1.465453 seconds 
+Total Time: 1.467152295 seconds
+
+number of threads: 2
+Time taken: 0.750017 seconds 
+Total Time: .751919807 seconds
+
+number of threads: 4
+Time taken: 0.380477 seconds 
+Total Time: .382211240 seconds
+
+number of threads: 8
+Time taken: 0.196942 seconds 
+Total Time: .198735955 seconds
+
+number of threads: 16
+Time taken: 0.203982 seconds 
+Total Time: .205620585 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 2.347383 seconds 
+Total Time: 2.349134653 seconds
+
+number of threads: 2
+Time taken: 1.158013 seconds 
+Total Time: 1.159985452 seconds
+
+number of threads: 4
+Time taken: 0.596036 seconds 
+Total Time: .597948758 seconds
+
+number of threads: 8
+Time taken: 0.306251 seconds 
+Total Time: .308141700 seconds
+
+number of threads: 16
+Time taken: 0.310469 seconds 
+Total Time: .312308879 seconds
+
+
+---size of array: 200000---
+
+number of threads: 1
+Time taken: 9.241537 seconds 
+Total Time: 9.244353475 seconds
+
+number of threads: 2
+Time taken: 4.652561 seconds 
+Total Time: 4.655414579 seconds
+
+number of threads: 4
+Time taken: 2.368378 seconds 
+Total Time: 2.371012690 seconds
+
+number of threads: 8
+Time taken: 1.192436 seconds 
+Total Time: 1.194788883 seconds
+
+number of threads: 16
+Time taken: 1.245395 seconds 
+Total Time: 1.247815299 seconds
+
+
+---size of array: 400000---
+
+number of threads: 1
+Time taken: 36.894485 seconds 
+Total Time: 36.898549777 seconds
+
+number of threads: 2
+Time taken: 18.712206 seconds 
+Total Time: 18.716379842 seconds
+
+number of threads: 4
+Time taken: 9.517048 seconds 
+Total Time: 9.522111822 seconds
+
+number of threads: 8
+Time taken: 4.745344 seconds 
+Total Time: 4.749229276 seconds
+
+number of threads: 16
+Time taken: 4.968105 seconds 
+Total Time: 4.972447068 seconds
+
+
+-----------running count_sort_gcc.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.690394 seconds 
+Total Time: .691820169 seconds
+
+number of threads: 2
+Time taken: 0.344263 seconds 
+Total Time: .345752611 seconds
+
+number of threads: 4
+Time taken: 0.176163 seconds 
+Total Time: .177364216 seconds
+
+number of threads: 8
+Time taken: 0.088059 seconds 
+Total Time: .089178173 seconds
+
+number of threads: 16
+Time taken: 0.057601 seconds 
+Total Time: .058771374 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 10.966988 seconds 
+Total Time: 10.968977289 seconds
+
+number of threads: 2
+Time taken: 5.499094 seconds 
+Total Time: 5.501014917 seconds
+
+number of threads: 4
+Time taken: 2.789787 seconds 
+Total Time: 2.791769274 seconds
+
+number of threads: 8
+Time taken: 1.403997 seconds 
+Total Time: 1.405660564 seconds
+
+number of threads: 16
+Time taken: 0.918123 seconds 
+Total Time: .919903700 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 17.058334 seconds 
+Total Time: 17.060189187 seconds
+
+number of threads: 2
+Time taken: 8.563763 seconds 
+Total Time: 8.565960727 seconds
+
+number of threads: 4
+Time taken: 4.352860 seconds 
+Total Time: 4.354927420 seconds
+
+number of threads: 8
+Time taken: 2.191790 seconds 
+Total Time: 2.193816169 seconds
+
+number of threads: 16
+Time taken: 1.421759 seconds 
+Total Time: 1.423745112 seconds
+
+
+---size of array: 200000---
+
+number of threads: 1
+Time taken: 67.347368 seconds 
+Total Time: 67.349901070 seconds
+
+number of threads: 2
+Time taken: 33.603315 seconds 
+Total Time: 33.606200318 seconds
+
+number of threads: 4
+Time taken: 17.199506 seconds 
+Total Time: 17.202438664 seconds
+
+number of threads: 8
+Time taken: 8.663692 seconds 
+Total Time: 8.666261018 seconds
+
+number of threads: 16
+Time taken: 5.822231 seconds 
+Total Time: 5.825008114 seconds
+
+
+---size of array: 400000---
+
+number of threads: 1
+Time taken: 265.922626 seconds 
+Total Time: 265.926679073 seconds
+
+number of threads: 2
+Time taken: 133.521131 seconds 
+Total Time: 133.525333008 seconds
+
+number of threads: 4
+Time taken: 67.415077 seconds 
+Total Time: 67.419149729 seconds
+
+number of threads: 8
+Time taken: 34.084677 seconds 
+Total Time: 34.088764452 seconds
+
+number of threads: 16
+Time taken: 22.643052 seconds 
+Total Time: 22.647370580 seconds
+
+
+-----------running count_sort_g++.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.684349
+Total Time: .713813025 seconds
+
+number of threads: 2
+Time taken: 0.344848
+Total Time: .374572517 seconds
+
+number of threads: 4
+Time taken: 0.176679
+Total Time: .206442051 seconds
+
+number of threads: 8
+Time taken: 0.0882622
+Total Time: .117879553 seconds
+
+number of threads: 16
+Time taken: 0.0572749
+Total Time: .088749040 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 10.943
+Total Time: 11.055231945 seconds
+
+number of threads: 2
+Time taken: 5.49356
+Total Time: 5.608788030 seconds
+
+number of threads: 4
+Time taken: 2.79507
+Total Time: 2.909773547 seconds
+
+number of threads: 8
+Time taken: 1.40571
+Total Time: 1.521039069 seconds
+
+number of threads: 16
+Time taken: 0.915277
+Total Time: 1.059063305 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 17.0396
+Total Time: 17.179858100 seconds
+
+number of threads: 2
+Time taken: 8.54841
+Total Time: 8.692511542 seconds
+
+number of threads: 4
+Time taken: 4.3531
+Total Time: 4.496769557 seconds
+
+number of threads: 8
+Time taken: 2.18307
+Total Time: 2.327393815 seconds
+
+number of threads: 16
+Time taken: 1.42801
+Total Time: 1.591304408 seconds
+
+
+---size of array: 200000---
+
+number of threads: 1
+Time taken: 67.1169
+Total Time: 67.400529817 seconds
+
+number of threads: 2
+Time taken: 33.7274
+Total Time: 34.014274666 seconds
+
+number of threads: 4
+Time taken: 17.1811
+Total Time: 17.489837909 seconds
+
+number of threads: 8
+Time taken: 8.62126
+Total Time: 8.907384467 seconds
+
+number of threads: 16
+Time taken: 5.65668
+Total Time: 5.946070988 seconds
+
+
+---size of array: 400000---
+
+number of threads: 1
+Time taken: 265.582
+Total Time: 266.141026933 seconds
+
+number of threads: 2
+Time taken: 133.086
+Total Time: 133.654689844 seconds
+
+number of threads: 4
+Time taken: 68.1129
+Total Time: 69.149029611 seconds
+
+number of threads: 8
+Time taken: 35.03
+Total Time: 35.622522148 seconds
+
+number of threads: 16
+Time taken: 22.4746
+Total Time: 23.057658944 seconds
+
+
+-----------running count_sort_internalLoop_clang++.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.633409
+Total Time: .663581901 seconds
+
+number of threads: 2
+Time taken: 0.284962
+Total Time: .315318526 seconds
+
+number of threads: 4
+Time taken: 0.114029
+Total Time: .144242894 seconds
+
+number of threads: 8
+Time taken: 0.059067
+Total Time: .089298287 seconds
+
+number of threads: 16
+Time taken: 0.0595229
+Total Time: .108769463 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 10.5924
+Total Time: 10.705115749 seconds
+
+number of threads: 2
+Time taken: 5.36099
+Total Time: 5.475958556 seconds
+
+number of threads: 4
+Time taken: 2.64899
+Total Time: 2.763771773 seconds
+
+number of threads: 8
+Time taken: 1.23861
+Total Time: 1.353484205 seconds
+
+number of threads: 16
+Time taken: 0.843513
+Total Time: 1.031312643 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 16.4382
+Total Time: 16.579910373 seconds
+
+number of threads: 2
+Time taken: 8.38887
+Total Time: 8.532141275 seconds
+
+number of threads: 4
+Time taken: 4.1911
+Total Time: 4.335165284 seconds
+
+number of threads: 8
+Time taken: 2.01006
+Total Time: 2.153009552 seconds
+
+number of threads: 16
+Time taken: 1.32385
+Total Time: 1.650022672 seconds
+
+
+---size of array: 200000---
+
+number of threads: 1
+Time taken: 65.0775
+Total Time: 65.356728376 seconds
+
+number of threads: 2
+Time taken: 33.3292
+Total Time: 33.620011766 seconds
+
+number of threads: 4
+Time taken: 17.2283
+Total Time: 17.542500051 seconds
+
+number of threads: 8
+Time taken: 8.69862
+Total Time: 9.096214063 seconds
+
+number of threads: 16
+Time taken: 5.45773
+Total Time: 5.920759819 seconds
+
+
+---size of array: 400000---
+
+number of threads: 1
+Time taken: 257.042
+Total Time: 257.600612889 seconds
+
+number of threads: 2
+Time taken: 131.226
+Total Time: 131.799636749 seconds
+
+number of threads: 4
+Time taken: 67.952
+Total Time: 68.524824608 seconds
+
+number of threads: 8
+Time taken: 35.0269
+Total Time: 35.603198917 seconds
+
+number of threads: 16
+Time taken: 21.6165
+Total Time: 22.370891244 seconds
+
+
+-----------running count_sort_internalLoop_g++.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.671542
+Total Time: .700897478 seconds
+
+number of threads: 2
+Time taken: 0.332391
+Total Time: .362317040 seconds
+
+number of threads: 4
+Time taken: 0.152737
+Total Time: .182769111 seconds
+
+number of threads: 8
+Time taken: 0.0680442
+Total Time: .097698367 seconds
+
+number of threads: 16
+Time taken: 0.0590376
+Total Time: .090336053 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 10.9497
+Total Time: 11.062508796 seconds
+
+number of threads: 2
+Time taken: 5.62381
+Total Time: 5.739228220 seconds
+
+number of threads: 4
+Time taken: 2.86373
+Total Time: 2.979581989 seconds
+
+number of threads: 8
+Time taken: 1.40169
+Total Time: 1.516439189 seconds
+
+number of threads: 16
+Time taken: 0.964796
+Total Time: 1.107387549 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 16.8306
+Total Time: 16.971378837 seconds
+
+number of threads: 2
+Time taken: 8.81498
+Total Time: 8.957719858 seconds
+
+number of threads: 4
+Time taken: 4.48094
+Total Time: 4.624892719 seconds
+
+number of threads: 8
+Time taken: 2.24419
+Total Time: 2.388978657 seconds
+
+number of threads: 16
+Time taken: 1.56618
+Total Time: 1.729069703 seconds
+
+
+---size of array: 200000---
+
+number of threads: 1
+Time taken: 67.322
+Total Time: 67.605066502 seconds
+
+number of threads: 2
+Time taken: 34.899
+Total Time: 35.183028791 seconds
+
+number of threads: 4
+Time taken: 17.978
+Total Time: 18.262015669 seconds
+
+number of threads: 8
+Time taken: 9.14665
+Total Time: 9.431706643 seconds
+
+number of threads: 16
+Time taken: 6.16564
+Total Time: 6.476893534 seconds
+
+
+---size of array: 400000---
+
+number of threads: 1
+Time taken: 266.651
+Total Time: 267.218979680 seconds
+
+number of threads: 2
+Time taken: 136.698
+Total Time: 137.275363867 seconds
+
+number of threads: 4
+Time taken: 70.9414
+Total Time: 71.517562056 seconds
+
+number of threads: 8
+Time taken: 36.4156
+Total Time: 36.989673139 seconds
+
+number of threads: 16
+Time taken: 24.555
+Total Time: 25.149073429 seconds
+
+
+-----------running count_sort_memcpy_clang++.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.0440509
+Total Time: .073759372 seconds
+
+number of threads: 2
+Time taken: 0.023103
+Total Time: .052999659 seconds
+
+number of threads: 4
+Time taken: 0.012141
+Total Time: .042077602 seconds
+
+number of threads: 8
+Time taken: 0.011744
+Total Time: .060257836 seconds
+
+number of threads: 16
+Time taken: 0.00660992
+Total Time: .054951624 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 0.679014
+Total Time: .791445654 seconds
+
+number of threads: 2
+Time taken: 0.344078
+Total Time: .459123299 seconds
+
+number of threads: 4
+Time taken: 0.179534
+Total Time: .293936313 seconds
+
+number of threads: 8
+Time taken: 0.089272
+Total Time: .203320637 seconds
+
+number of threads: 16
+Time taken: 0.089606
+Total Time: .387075369 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 1.06083
+Total Time: 1.202114551 seconds
+
+number of threads: 2
+Time taken: 0.566702
+Total Time: .710229803 seconds
+
+number of threads: 4
+Time taken: 0.27124
+Total Time: .414096703 seconds
+
+number of threads: 8
+Time taken: 0.139701
+Total Time: .282150650 seconds
+
+number of threads: 16
+Time taken: 0.138146
+Total Time: .403710681 seconds
+
+
+---size of array: 200000---
+
+number of threads: 1
+Time taken: 4.26938
+Total Time: 4.549571074 seconds
+
+number of threads: 2
+Time taken: 2.18463
+Total Time: 2.470744815 seconds
+
+number of threads: 4
+Time taken: 1.11877
+Total Time: 1.403514478 seconds
+
+number of threads: 8
+Time taken: 0.558265
+Total Time: .846269902 seconds
+
+number of threads: 16
+Time taken: 0.549433
+Total Time: .914314120 seconds
+
+
+---size of array: 400000---
+
+number of threads: 1
+Time taken: 17.1404
+Total Time: 17.699750934 seconds
+
+number of threads: 2
+Time taken: 8.94452
+Total Time: 9.514731437 seconds
+
+number of threads: 4
+Time taken: 4.42642
+Total Time: 5.010566592 seconds
+
+number of threads: 8
+Time taken: 2.23528
+Total Time: 2.807637939 seconds
+
+number of threads: 16
+Time taken: 2.19214
+Total Time: 2.916693117 seconds
+
+
+-----------running count_sort_memcpy_g++.out-----------
+
+
+---size of array: 20000---
+
+number of threads: 1
+Time taken: 0.687638
+Total Time: .716863660 seconds
+
+number of threads: 2
+Time taken: 0.345291
+Total Time: .375496185 seconds
+
+number of threads: 4
+Time taken: 0.175748
+Total Time: .205935962 seconds
+
+number of threads: 8
+Time taken: 0.0879008
+Total Time: .118035085 seconds
+
+number of threads: 16
+Time taken: 0.0575043
+Total Time: .089244747 seconds
+
+
+---size of array: 80000---
+
+number of threads: 1
+Time taken: 10.9307
+Total Time: 11.042237473 seconds
+
+number of threads: 2
+Time taken: 5.4978
+Total Time: 5.612235615 seconds
+
+number of threads: 4
+Time taken: 2.79611
+Total Time: 2.912191233 seconds
+
+number of threads: 8
+Time taken: 1.39761
+Total Time: 1.539031635 seconds
+
+number of threads: 16
+Time taken: 0.918333
+Total Time: 1.059700444 seconds
+
+
+---size of array: 100000---
+
+number of threads: 1
+Time taken: 17.0632
+Total Time: 17.203888809 seconds
+
+number of threads: 2
+Time taken: 8.47826
+Total Time: 8.621640315 seconds
+
+number of threads: 4
+Time taken: 4.34046
+Total Time: 4.483997127 seconds
+
+number of threads: 8
+Time taken: 2.18769
+Total Time: 2.332089232 seconds
+
+number of threads: 16
+Time taken: 1.41488
+Total Time: 1.578226606 seconds
+
+
+---size of array: 200000---
+
+number of threads: 1
+Time taken: 67.0101
+Total Time: 67.288380047 seconds
+
+number of threads: 2
+Time taken: 33.6662
+Total Time: 33.951920190 seconds
+
+number of threads: 4
+Time taken: 17.0102
+Total Time: 17.295831566 seconds
+
+number of threads: 8
+Time taken: 8.66258
+Total Time: 8.949171886 seconds
+
+number of threads: 16
+Time taken: 5.70513
+Total Time: 5.992324625 seconds
+
+
+---size of array: 400000---
+
+number of threads: 1
+Time taken: 267.463
+Total Time: 268.025786088 seconds
+
+number of threads: 2
+Time taken: 133.325
+Total Time: 133.892413966 seconds
+
+number of threads: 4
+Time taken: 68.2412
+Total Time: 68.806091061 seconds
+
+number of threads: 8
+Time taken: 34.1427
+Total Time: 34.729510157 seconds
+
+number of threads: 16
+Time taken: 22.4591
+Total Time: 23.032348860 seconds
+
+
+-----------running count_sort_seq_clang.out-----------
+
+
+---size of array: 20000---
+
+count_sort_seq_clang.out, N = 20000
+Time taken: 0.000001 seconds 
+Total Time: .001227260 seconds
+
+
+---size of array: 80000---
+
+count_sort_seq_clang.out, N = 80000
+Time taken: 0.000000 seconds 
+Total Time: .001309910 seconds
+
+
+---size of array: 100000---
+
+count_sort_seq_clang.out, N = 100000
+Time taken: 0.000001 seconds 
+Total Time: .001394791 seconds
+
+
+---size of array: 200000---
+
+count_sort_seq_clang.out, N = 200000
+Time taken: 0.000000 seconds 
+Total Time: .001962176 seconds
+
+
+---size of array: 400000---
+
+count_sort_seq_clang.out, N = 400000
+Time taken: 0.000000 seconds 
+Total Time: .003067135 seconds
+
+
+-----------running count_sort_seq_gcc.out-----------
+
+
+---size of array: 20000---
+
+count_sort_seq_gcc.out, N = 20000
+Time taken: 0.697333 seconds 
+Total Time: .698749936 seconds
+
+
+---size of array: 80000---
+
+count_sort_seq_gcc.out, N = 80000
+Time taken: 11.198021 seconds 
+Total Time: 11.203950875 seconds
+
+
+---size of array: 100000---
+
+count_sort_seq_gcc.out, N = 100000
+Time taken: 17.441069 seconds 
+Total Time: 17.450221841 seconds
+
+
+---size of array: 200000---
+
+count_sort_seq_gcc.out, N = 200000
+Time taken: 68.730289 seconds 
+Total Time: 68.762300603 seconds
+
+
+---size of array: 400000---
+
+count_sort_seq_gcc.out, N = 400000
+Time taken: 272.149022 seconds 
+Total Time: 272.276587506 seconds
+
