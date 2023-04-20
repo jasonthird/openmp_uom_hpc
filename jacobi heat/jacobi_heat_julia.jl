@@ -58,7 +58,7 @@ function main()
   t2 = time()
   
   # print time
-  println("Time: $(t2-t1)")
+  println("Time taken: $(t2-t1)")
 
 
   return 0

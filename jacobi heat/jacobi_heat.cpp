@@ -67,7 +67,7 @@ int main()
 		}
 	}
 	double end_time = omp_get_wtime();
-	printf("Time: %f seconds", end_time - start_time);
+	printf("Time taken: %f seconds", end_time - start_time);
 	delete[] table1;
 	delete[] table2;
 	return 0;
