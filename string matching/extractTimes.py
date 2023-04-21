@@ -37,7 +37,7 @@ for (i, line) in enumerate(text.splitlines()):
     # find the size of the array
     if "size of array" in line:
         #use regex to get the size
-        size = line.split(" ")[3]
+        size = line.split(" ")[7]
         size = size.split("-")[0]
         programName = program + "_" + size
         #add the program name to the dataframe as a column

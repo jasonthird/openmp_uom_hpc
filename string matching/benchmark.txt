@@ -5,1103 +5,1193 @@ compiling string_matching_fortran.f90
 -----------running string_matching_clang.out-----------
 
 
----size of array: 50000000---
+---size of array and string to match: 50000000+312---
 
 number of threads: 1
 file size is 50000000
-Time taken: 0.035692 seconds for 50000000 bytes
-Total matches = 175
+Time taken: 0.038652 seconds for 50000000 bytes
+Total matches = 193
 
-Total Time: .060688628 seconds
+Total Time: .070106103 seconds
 
 number of threads: 2
 file size is 50000000
-Time taken: 0.020412 seconds for 50000000 bytes
-Total matches = 175
+Time taken: 0.026526 seconds for 50000000 bytes
+Total matches = 193
 
-Total Time: .044787505 seconds
+Total Time: .054528760 seconds
 
 number of threads: 4
 file size is 50000000
-Time taken: 0.012448 seconds for 50000000 bytes
-Total matches = 175
+Time taken: 0.012104 seconds for 50000000 bytes
+Total matches = 193
 
-Total Time: .037487784 seconds
+Total Time: .038153569 seconds
 
 number of threads: 8
 file size is 50000000
-Time taken: 0.009491 seconds for 50000000 bytes
-Total matches = 175
+Time taken: 0.010140 seconds for 50000000 bytes
+Total matches = 193
 
-Total Time: .033740792 seconds
+Total Time: .035722609 seconds
 
 number of threads: 16
 file size is 50000000
-Time taken: 0.009653 seconds for 50000000 bytes
-Total matches = 175
+Time taken: 0.010555 seconds for 50000000 bytes
+Total matches = 193
 
-Total Time: .035013243 seconds
+Total Time: .036658120 seconds
+
+
+---size of array and string to match: 50000000+xd---
 
 number of threads: 1
 file size is 50000000
-Time taken: 0.036743 seconds for 50000000 bytes
-Total matches = 11895
+Time taken: 0.039451 seconds for 50000000 bytes
+Total matches = 11730
 
-Total Time: .061976349 seconds
+Total Time: .065272591 seconds
 
 number of threads: 2
 file size is 50000000
-Time taken: 0.020895 seconds for 50000000 bytes
-Total matches = 11895
+Time taken: 0.021246 seconds for 50000000 bytes
+Total matches = 11730
 
-Total Time: .045378580 seconds
+Total Time: .047838753 seconds
 
 number of threads: 4
 file size is 50000000
-Time taken: 0.012767 seconds for 50000000 bytes
-Total matches = 11895
+Time taken: 0.011885 seconds for 50000000 bytes
+Total matches = 11730
 
-Total Time: .037651515 seconds
+Total Time: .038886420 seconds
 
 number of threads: 8
 file size is 50000000
-Time taken: 0.010873 seconds for 50000000 bytes
-Total matches = 11895
+Time taken: 0.011319 seconds for 50000000 bytes
+Total matches = 11730
 
-Total Time: .035454396 seconds
+Total Time: .037404881 seconds
 
 number of threads: 16
 file size is 50000000
-Time taken: 0.014281 seconds for 50000000 bytes
-Total matches = 11895
+Time taken: 0.011627 seconds for 50000000 bytes
+Total matches = 11730
 
-Total Time: .039624251 seconds
+Total Time: .037546250 seconds
+
+
+---size of array and string to match: 50000000+openmp---
 
 number of threads: 1
 file size is 50000000
-Time taken: 0.027834 seconds for 50000000 bytes
+Time taken: 0.027673 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .052276688 seconds
+Total Time: .053244878 seconds
 
 number of threads: 2
 file size is 50000000
-Time taken: 0.014729 seconds for 50000000 bytes
+Time taken: 0.014476 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .039297899 seconds
+Total Time: .039077001 seconds
 
 number of threads: 4
 file size is 50000000
-Time taken: 0.008296 seconds for 50000000 bytes
+Time taken: 0.008123 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .032905615 seconds
+Total Time: .032473157 seconds
 
 number of threads: 8
 file size is 50000000
-Time taken: 0.004935 seconds for 50000000 bytes
+Time taken: 0.004942 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .029634858 seconds
+Total Time: .029164561 seconds
 
 number of threads: 16
 file size is 50000000
-Time taken: 0.006735 seconds for 50000000 bytes
+Time taken: 0.007059 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .031549424 seconds
+Total Time: .031500497 seconds
 
 
----size of array: 100000000---
+---size of array and string to match: 100000000+312---
 
 number of threads: 1
 file size is 100000000
-Time taken: 0.070361 seconds for 100000000 bytes
-Total matches = 379
+Time taken: 0.069745 seconds for 100000000 bytes
+Total matches = 335
 
-Total Time: .118520782 seconds
+Total Time: .113168795 seconds
 
 number of threads: 2
 file size is 100000000
-Time taken: 0.039632 seconds for 100000000 bytes
-Total matches = 379
+Time taken: 0.039933 seconds for 100000000 bytes
+Total matches = 335
 
-Total Time: .088757564 seconds
+Total Time: .083100940 seconds
 
 number of threads: 4
 file size is 100000000
-Time taken: 0.023196 seconds for 100000000 bytes
-Total matches = 379
+Time taken: 0.024611 seconds for 100000000 bytes
+Total matches = 335
 
-Total Time: .071969122 seconds
+Total Time: .067236992 seconds
 
 number of threads: 8
 file size is 100000000
-Time taken: 0.018527 seconds for 100000000 bytes
-Total matches = 379
+Time taken: 0.018614 seconds for 100000000 bytes
+Total matches = 335
 
-Total Time: .066878779 seconds
+Total Time: .061864079 seconds
 
 number of threads: 16
 file size is 100000000
-Time taken: 0.018734 seconds for 100000000 bytes
-Total matches = 379
+Time taken: 0.019068 seconds for 100000000 bytes
+Total matches = 335
 
-Total Time: .068174830 seconds
+Total Time: .066915136 seconds
+
+
+---size of array and string to match: 100000000+xd---
 
 number of threads: 1
 file size is 100000000
-Time taken: 0.073014 seconds for 100000000 bytes
-Total matches = 23924
+Time taken: 0.073298 seconds for 100000000 bytes
+Total matches = 23546
 
-Total Time: .122319844 seconds
+Total Time: .117128377 seconds
 
 number of threads: 2
 file size is 100000000
-Time taken: 0.041464 seconds for 100000000 bytes
-Total matches = 23924
+Time taken: 0.041042 seconds for 100000000 bytes
+Total matches = 23546
 
-Total Time: .089250137 seconds
+Total Time: .085630238 seconds
 
 number of threads: 4
 file size is 100000000
-Time taken: 0.027506 seconds for 100000000 bytes
-Total matches = 23924
+Time taken: 0.027541 seconds for 100000000 bytes
+Total matches = 23546
 
-Total Time: .075200049 seconds
+Total Time: .071124278 seconds
 
 number of threads: 8
 file size is 100000000
-Time taken: 0.023237 seconds for 100000000 bytes
-Total matches = 23924
+Time taken: 0.022821 seconds for 100000000 bytes
+Total matches = 23546
 
-Total Time: .072267394 seconds
+Total Time: .066555900 seconds
 
 number of threads: 16
 file size is 100000000
-Time taken: 0.022430 seconds for 100000000 bytes
-Total matches = 23924
+Time taken: 0.022719 seconds for 100000000 bytes
+Total matches = 23546
 
-Total Time: .072253355 seconds
+Total Time: .068375937 seconds
+
+
+---size of array and string to match: 100000000+openmp---
 
 number of threads: 1
 file size is 100000000
-Time taken: 0.054282 seconds for 100000000 bytes
+Time taken: 0.054344 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .103498566 seconds
+Total Time: .103306341 seconds
 
 number of threads: 2
 file size is 100000000
-Time taken: 0.028013 seconds for 100000000 bytes
+Time taken: 0.027929 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .077053305 seconds
+Total Time: .071058750 seconds
 
 number of threads: 4
 file size is 100000000
-Time taken: 0.015063 seconds for 100000000 bytes
+Time taken: 0.016210 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .064822862 seconds
+Total Time: .059587108 seconds
 
 number of threads: 8
 file size is 100000000
-Time taken: 0.008646 seconds for 100000000 bytes
+Time taken: 0.008927 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .057485881 seconds
+Total Time: .051960114 seconds
 
 number of threads: 16
 file size is 100000000
-Time taken: 0.009188 seconds for 100000000 bytes
+Time taken: 0.010248 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .057589982 seconds
+Total Time: .053468793 seconds
 
 
----size of array: 2000000000---
+---size of array and string to match: 2000000000+312---
 
 number of threads: 1
 file size is 2000000000
-Time taken: 1.110847 seconds for 2000000000 bytes
-Total matches = 7402
+Time taken: 1.353478 seconds for 2000000000 bytes
+Total matches = 7449
 
-Total Time: 2.028983222 seconds
+Total Time: 2.178628057 seconds
 
 number of threads: 2
 file size is 2000000000
-Time taken: 0.607863 seconds for 2000000000 bytes
-Total matches = 7402
+Time taken: 0.749012 seconds for 2000000000 bytes
+Total matches = 7449
 
-Total Time: 1.512016595 seconds
+Total Time: 1.563099109 seconds
 
 number of threads: 4
 file size is 2000000000
-Time taken: 0.296000 seconds for 2000000000 bytes
-Total matches = 7402
+Time taken: 0.426153 seconds for 2000000000 bytes
+Total matches = 7449
 
-Total Time: 1.193224817 seconds
+Total Time: 1.248093678 seconds
 
 number of threads: 8
 file size is 2000000000
-Time taken: 0.169345 seconds for 2000000000 bytes
-Total matches = 7402
+Time taken: 0.325632 seconds for 2000000000 bytes
+Total matches = 7449
 
-Total Time: 1.074094080 seconds
+Total Time: 1.157461923 seconds
 
 number of threads: 16
 file size is 2000000000
-Time taken: 0.171497 seconds for 2000000000 bytes
-Total matches = 7402
+Time taken: 0.338268 seconds for 2000000000 bytes
+Total matches = 7449
 
-Total Time: 1.078901100 seconds
+Total Time: 1.150386361 seconds
+
+
+---size of array and string to match: 2000000000+xd---
 
 number of threads: 1
 file size is 2000000000
-Time taken: 1.282043 seconds for 2000000000 bytes
-Total matches = 476720
+Time taken: 1.434169 seconds for 2000000000 bytes
+Total matches = 475438
 
-Total Time: 2.210938654 seconds
+Total Time: 2.249932457 seconds
 
 number of threads: 2
 file size is 2000000000
-Time taken: 0.693001 seconds for 2000000000 bytes
-Total matches = 476720
+Time taken: 0.799350 seconds for 2000000000 bytes
+Total matches = 475438
 
-Total Time: 1.625014410 seconds
+Total Time: 1.616526425 seconds
 
 number of threads: 4
 file size is 2000000000
-Time taken: 0.374184 seconds for 2000000000 bytes
-Total matches = 476720
+Time taken: 0.552286 seconds for 2000000000 bytes
+Total matches = 475438
 
-Total Time: 1.298767329 seconds
+Total Time: 1.372083771 seconds
 
 number of threads: 8
 file size is 2000000000
-Time taken: 0.223369 seconds for 2000000000 bytes
-Total matches = 476720
+Time taken: 0.441154 seconds for 2000000000 bytes
+Total matches = 475438
 
-Total Time: 1.163384516 seconds
+Total Time: 1.272439020 seconds
 
 number of threads: 16
 file size is 2000000000
-Time taken: 0.232081 seconds for 2000000000 bytes
-Total matches = 476720
+Time taken: 0.408007 seconds for 2000000000 bytes
+Total matches = 475438
 
-Total Time: 1.169411267 seconds
+Total Time: 1.226081736 seconds
+
+
+---size of array and string to match: 2000000000+openmp---
 
 number of threads: 1
 file size is 2000000000
-Time taken: 1.052023 seconds for 2000000000 bytes
+Time taken: 1.035849 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.950428194 seconds
+Total Time: 1.839273908 seconds
 
 number of threads: 2
 file size is 2000000000
-Time taken: 0.531050 seconds for 2000000000 bytes
+Time taken: 0.525011 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.432167586 seconds
+Total Time: 1.324450416 seconds
 
 number of threads: 4
 file size is 2000000000
-Time taken: 0.266579 seconds for 2000000000 bytes
+Time taken: 0.266051 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.166370601 seconds
+Total Time: 1.065783520 seconds
 
 number of threads: 8
 file size is 2000000000
-Time taken: 0.134805 seconds for 2000000000 bytes
+Time taken: 0.154384 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.036115940 seconds
+Total Time: .957082562 seconds
 
 number of threads: 16
 file size is 2000000000
-Time taken: 0.130892 seconds for 2000000000 bytes
+Time taken: 0.139506 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.029745387 seconds
+Total Time: .968810534 seconds
 
 
 -----------running string_matching_fortran_fortran.out-----------
 
 
----size of array: 50000000---
+---size of array and string to match: 50000000+312---
 
 number of threads: 1
- Time taken:   3.9769887924194336E-002 seconds for     50000000 bytes
- Total matches =          180 for pattern 312
+ Time taken:   3.9752960205078125E-002 seconds for     50000000 bytes
+ Total matches =          183 for pattern 312
 
-Total Time: .067483135 seconds
+Total Time: .066874541 seconds
 
 number of threads: 2
- Time taken:   2.0787000656127930E-002 seconds for     50000000 bytes
- Total matches =          180 for pattern 312
+ Time taken:   2.0267963409423828E-002 seconds for     50000000 bytes
+ Total matches =          183 for pattern 312
 
-Total Time: .048378955 seconds
+Total Time: .046787459 seconds
 
 number of threads: 4
- Time taken:   1.0540962219238281E-002 seconds for     50000000 bytes
- Total matches =          180 for pattern 312
+ Time taken:   1.1352062225341797E-002 seconds for     50000000 bytes
+ Total matches =          183 for pattern 312
 
-Total Time: .037228892 seconds
+Total Time: .039249674 seconds
 
 number of threads: 8
- Time taken:   6.0961246490478516E-003 seconds for     50000000 bytes
- Total matches =          180 for pattern 312
+ Time taken:   6.4001083374023438E-003 seconds for     50000000 bytes
+ Total matches =          183 for pattern 312
 
-Total Time: .032510963 seconds
+Total Time: .032986230 seconds
 
 number of threads: 16
- Time taken:   5.7718753814697266E-003 seconds for     50000000 bytes
- Total matches =          180 for pattern 312
+ Time taken:   7.0948600769042969E-003 seconds for     50000000 bytes
+ Total matches =          183 for pattern 312
 
-Total Time: .032336181 seconds
+Total Time: .033526572 seconds
+
+
+---size of array and string to match: 50000000+xd---
 
 number of threads: 1
- Time taken:   4.1097879409790039E-002 seconds for     50000000 bytes
- Total matches =        12022 for pattern xd
+ Time taken:   4.2842149734497070E-002 seconds for     50000000 bytes
+ Total matches =        11962 for pattern xd
 
-Total Time: .067652626 seconds
+Total Time: .069803369 seconds
 
 number of threads: 2
- Time taken:   2.0333051681518555E-002 seconds for     50000000 bytes
- Total matches =        12022 for pattern xd
+ Time taken:   2.8456926345825195E-002 seconds for     50000000 bytes
+ Total matches =        11962 for pattern xd
 
-Total Time: .046915893 seconds
+Total Time: .059210430 seconds
 
 number of threads: 4
- Time taken:   1.0701894760131836E-002 seconds for     50000000 bytes
- Total matches =        12022 for pattern xd
+ Time taken:   1.1394023895263672E-002 seconds for     50000000 bytes
+ Total matches =        11962 for pattern xd
 
-Total Time: .038297621 seconds
+Total Time: .037886126 seconds
 
 number of threads: 8
- Time taken:   2.5128126144409180E-002 seconds for     50000000 bytes
- Total matches =        12022 for pattern xd
+ Time taken:   9.9208354949951172E-003 seconds for     50000000 bytes
+ Total matches =        11962 for pattern xd
 
-Total Time: .051967015 seconds
+Total Time: .036941097 seconds
 
 number of threads: 16
- Time taken:   6.1118602752685547E-003 seconds for     50000000 bytes
- Total matches =        12022 for pattern xd
+ Time taken:   6.1469078063964844E-003 seconds for     50000000 bytes
+ Total matches =        11962 for pattern xd
 
-Total Time: .034453268 seconds
+Total Time: .034141494 seconds
+
+
+---size of array and string to match: 50000000+openmp---
 
 number of threads: 1
- Time taken:   4.0791034698486328E-002 seconds for     50000000 bytes
+ Time taken:   4.2046070098876953E-002 seconds for     50000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .067999439 seconds
+Total Time: .069779871 seconds
 
 number of threads: 2
- Time taken:   2.0225048065185547E-002 seconds for     50000000 bytes
+ Time taken:   2.0714044570922852E-002 seconds for     50000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .047091094 seconds
+Total Time: .049080017 seconds
 
 number of threads: 4
- Time taken:   1.1101007461547852E-002 seconds for     50000000 bytes
+ Time taken:   1.0529994964599609E-002 seconds for     50000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .038382191 seconds
+Total Time: .038932234 seconds
 
 number of threads: 8
- Time taken:   5.9859752655029297E-003 seconds for     50000000 bytes
+ Time taken:   5.8019161224365234E-003 seconds for     50000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .032500892 seconds
+Total Time: .031859045 seconds
 
 number of threads: 16
- Time taken:   5.5780410766601563E-003 seconds for     50000000 bytes
+ Time taken:   1.2547969818115234E-002 seconds for     50000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .032161279 seconds
+Total Time: .038824498 seconds
 
 
----size of array: 100000000---
+---size of array and string to match: 100000000+312---
 
 number of threads: 1
- Time taken:   8.3044052124023438E-002 seconds for    100000000 bytes
- Total matches =          387 for pattern 312
+ Time taken:   9.0672969818115234E-002 seconds for    100000000 bytes
+ Total matches =          369 for pattern 312
 
-Total Time: .134692527 seconds
+Total Time: .140519085 seconds
 
 number of threads: 2
- Time taken:   4.0499925613403320E-002 seconds for    100000000 bytes
- Total matches =          387 for pattern 312
+ Time taken:   4.2335987091064453E-002 seconds for    100000000 bytes
+ Total matches =          369 for pattern 312
 
-Total Time: .093252940 seconds
+Total Time: .092159086 seconds
 
 number of threads: 4
- Time taken:   2.0514011383056641E-002 seconds for    100000000 bytes
- Total matches =          387 for pattern 312
+ Time taken:   2.1872997283935547E-002 seconds for    100000000 bytes
+ Total matches =          369 for pattern 312
 
-Total Time: .073739267 seconds
+Total Time: .073785918 seconds
 
 number of threads: 8
- Time taken:   1.9460916519165039E-002 seconds for    100000000 bytes
- Total matches =          387 for pattern 312
+ Time taken:   1.9185066223144531E-002 seconds for    100000000 bytes
+ Total matches =          369 for pattern 312
 
-Total Time: .072184914 seconds
+Total Time: .068045666 seconds
 
 number of threads: 16
- Time taken:   1.0658979415893555E-002 seconds for    100000000 bytes
- Total matches =          387 for pattern 312
+ Time taken:   1.7800092697143555E-002 seconds for    100000000 bytes
+ Total matches =          369 for pattern 312
 
-Total Time: .063860494 seconds
+Total Time: .066735037 seconds
+
+
+---size of array and string to match: 100000000+xd---
 
 number of threads: 1
- Time taken:   8.1358909606933594E-002 seconds for    100000000 bytes
- Total matches =        23851 for pattern xd
+ Time taken:   8.0144166946411133E-002 seconds for    100000000 bytes
+ Total matches =        23941 for pattern xd
 
-Total Time: .133986001 seconds
+Total Time: .129464818 seconds
 
 number of threads: 2
- Time taken:   4.0252923965454102E-002 seconds for    100000000 bytes
- Total matches =        23851 for pattern xd
+ Time taken:   4.0241003036499023E-002 seconds for    100000000 bytes
+ Total matches =        23941 for pattern xd
 
-Total Time: .092968849 seconds
+Total Time: .088469892 seconds
 
 number of threads: 4
- Time taken:   2.0629167556762695E-002 seconds for    100000000 bytes
- Total matches =        23851 for pattern xd
+ Time taken:   2.1913051605224609E-002 seconds for    100000000 bytes
+ Total matches =        23941 for pattern xd
 
-Total Time: .073690587 seconds
+Total Time: .072817449 seconds
 
 number of threads: 8
- Time taken:   1.2667179107666016E-002 seconds for    100000000 bytes
- Total matches =        23851 for pattern xd
+ Time taken:   1.9966840744018555E-002 seconds for    100000000 bytes
+ Total matches =        23941 for pattern xd
 
-Total Time: .065595909 seconds
+Total Time: .069374445 seconds
 
 number of threads: 16
- Time taken:   1.1497020721435547E-002 seconds for    100000000 bytes
- Total matches =        23851 for pattern xd
+ Time taken:   1.1906147003173828E-002 seconds for    100000000 bytes
+ Total matches =        23941 for pattern xd
 
-Total Time: .064541231 seconds
+Total Time: .060920107 seconds
+
+
+---size of array and string to match: 100000000+openmp---
 
 number of threads: 1
- Time taken:   8.1257820129394531E-002 seconds for    100000000 bytes
+ Time taken:   8.0008983612060547E-002 seconds for    100000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .135558075 seconds
+Total Time: .128315942 seconds
 
 number of threads: 2
- Time taken:   4.0679931640625000E-002 seconds for    100000000 bytes
+ Time taken:   4.0206909179687500E-002 seconds for    100000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .093454352 seconds
+Total Time: .089867814 seconds
 
 number of threads: 4
- Time taken:   2.1981954574584961E-002 seconds for    100000000 bytes
+ Time taken:   2.0997047424316406E-002 seconds for    100000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .075101849 seconds
+Total Time: .070333187 seconds
 
 number of threads: 8
- Time taken:   1.0998964309692383E-002 seconds for    100000000 bytes
+ Time taken:   1.1708974838256836E-002 seconds for    100000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .063471291 seconds
+Total Time: .061409723 seconds
 
 number of threads: 16
- Time taken:   1.2670993804931641E-002 seconds for    100000000 bytes
+ Time taken:   1.0659933090209961E-002 seconds for    100000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: .065690440 seconds
+Total Time: .059817912 seconds
 
 
----size of array: 2000000000---
+---size of array and string to match: 2000000000+312---
 
 number of threads: 1
- Time taken:    1.592166900634766      seconds for   2000000000 bytes
- Total matches =         7217 for pattern 312
+ Time taken:    1.577761888504028      seconds for   2000000000 bytes
+ Total matches =         7369 for pattern 312
 
-Total Time: 3.475048269 seconds
+Total Time: 2.479866103 seconds
 
 number of threads: 2
- Time taken:   0.8072209358215332      seconds for   2000000000 bytes
- Total matches =         7217 for pattern 312
+ Time taken:   0.7901818752288818      seconds for   2000000000 bytes
+ Total matches =         7369 for pattern 312
 
-Total Time: 2.682263114 seconds
+Total Time: 1.692888803 seconds
 
 number of threads: 4
- Time taken:   0.4107480049133301      seconds for   2000000000 bytes
- Total matches =         7217 for pattern 312
+ Time taken:   0.4024670124053955      seconds for   2000000000 bytes
+ Total matches =         7369 for pattern 312
 
-Total Time: 2.303938388 seconds
+Total Time: 1.305318154 seconds
 
 number of threads: 8
- Time taken:   0.2026498317718506      seconds for   2000000000 bytes
- Total matches =         7217 for pattern 312
+ Time taken:   0.2148890495300293      seconds for   2000000000 bytes
+ Total matches =         7369 for pattern 312
 
-Total Time: 2.067597460 seconds
+Total Time: 1.115234448 seconds
 
 number of threads: 16
- Time taken:   0.2179520130157471      seconds for   2000000000 bytes
- Total matches =         7217 for pattern 312
+ Time taken:   0.1974749565124512      seconds for   2000000000 bytes
+ Total matches =         7369 for pattern 312
 
-Total Time: 2.057678547 seconds
+Total Time: 1.100811097 seconds
+
+
+---size of array and string to match: 2000000000+xd---
 
 number of threads: 1
- Time taken:    1.589670896530151      seconds for   2000000000 bytes
- Total matches =       475565 for pattern xd
+ Time taken:    1.582615852355957      seconds for   2000000000 bytes
+ Total matches =       475712 for pattern xd
 
-Total Time: 3.383360739 seconds
+Total Time: 2.482285435 seconds
 
 number of threads: 2
- Time taken:   0.8152990341186523      seconds for   2000000000 bytes
- Total matches =       475565 for pattern xd
+ Time taken:   0.7834780216217041      seconds for   2000000000 bytes
+ Total matches =       475712 for pattern xd
 
-Total Time: 2.615999398 seconds
+Total Time: 1.680842444 seconds
 
 number of threads: 4
- Time taken:   0.4183220863342285      seconds for   2000000000 bytes
- Total matches =       475565 for pattern xd
+ Time taken:   0.4017860889434814      seconds for   2000000000 bytes
+ Total matches =       475712 for pattern xd
 
-Total Time: 2.207431148 seconds
+Total Time: 1.304311636 seconds
 
 number of threads: 8
- Time taken:   0.2091701030731201      seconds for   2000000000 bytes
- Total matches =       475565 for pattern xd
+ Time taken:   0.2419481277465820      seconds for   2000000000 bytes
+ Total matches =       475712 for pattern xd
 
-Total Time: 2.017424959 seconds
+Total Time: 1.146849578 seconds
 
 number of threads: 16
- Time taken:   0.1901469230651855      seconds for   2000000000 bytes
- Total matches =       475565 for pattern xd
+ Time taken:   0.1933848857879639      seconds for   2000000000 bytes
+ Total matches =       475712 for pattern xd
 
-Total Time: 1.978932647 seconds
+Total Time: 1.096779446 seconds
+
+
+---size of array and string to match: 2000000000+openmp---
 
 number of threads: 1
- Time taken:    1.588070869445801      seconds for   2000000000 bytes
+ Time taken:    1.550710916519165      seconds for   2000000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: 3.333921723 seconds
+Total Time: 2.445508265 seconds
 
 number of threads: 2
- Time taken:   0.8111569881439209      seconds for   2000000000 bytes
+ Time taken:   0.8125400543212891      seconds for   2000000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: 2.597389370 seconds
+Total Time: 1.710989841 seconds
 
 number of threads: 4
- Time taken:   0.4117469787597656      seconds for   2000000000 bytes
+ Time taken:   0.4053621292114258      seconds for   2000000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: 2.123603546 seconds
+Total Time: 1.300710279 seconds
 
 number of threads: 8
- Time taken:   0.2217369079589844      seconds for   2000000000 bytes
+ Time taken:   0.2061002254486084      seconds for   2000000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: 1.932761649 seconds
+Total Time: 1.103450610 seconds
 
 number of threads: 16
- Time taken:   0.1884169578552246      seconds for   2000000000 bytes
+ Time taken:   0.1945569515228271      seconds for   2000000000 bytes
  Total matches =            0 for pattern openmp
 
-Total Time: 2.002289250 seconds
+Total Time: 1.095105920 seconds
 
 
 -----------running string_matching_gcc.out-----------
 
 
----size of array: 50000000---
+---size of array and string to match: 50000000+312---
 
 number of threads: 1
 file size is 50000000
-Time taken: 0.036467 seconds for 50000000 bytes
-Total matches = 202
+Time taken: 0.035891 seconds for 50000000 bytes
+Total matches = 174
 
-Total Time: .075039867 seconds
+Total Time: .059853230 seconds
 
 number of threads: 2
 file size is 50000000
-Time taken: 0.020619 seconds for 50000000 bytes
-Total matches = 202
+Time taken: 0.020178 seconds for 50000000 bytes
+Total matches = 174
 
-Total Time: .045244389 seconds
+Total Time: .044598319 seconds
 
 number of threads: 4
 file size is 50000000
-Time taken: 0.012500 seconds for 50000000 bytes
-Total matches = 202
+Time taken: 0.011779 seconds for 50000000 bytes
+Total matches = 174
 
-Total Time: .037364272 seconds
+Total Time: .035640328 seconds
 
 number of threads: 8
 file size is 50000000
-Time taken: 0.009895 seconds for 50000000 bytes
-Total matches = 202
+Time taken: 0.009755 seconds for 50000000 bytes
+Total matches = 174
 
-Total Time: .034685690 seconds
+Total Time: .034035334 seconds
 
 number of threads: 16
 file size is 50000000
-Time taken: 0.010161 seconds for 50000000 bytes
-Total matches = 202
+Time taken: 0.013598 seconds for 50000000 bytes
+Total matches = 174
 
-Total Time: .035959880 seconds
+Total Time: .037913553 seconds
+
+
+---size of array and string to match: 50000000+xd---
 
 number of threads: 1
 file size is 50000000
-Time taken: 0.037134 seconds for 50000000 bytes
-Total matches = 11951
+Time taken: 0.037373 seconds for 50000000 bytes
+Total matches = 12016
 
-Total Time: .062160820 seconds
+Total Time: .061279317 seconds
 
 number of threads: 2
 file size is 50000000
-Time taken: 0.021664 seconds for 50000000 bytes
-Total matches = 11951
+Time taken: 0.020715 seconds for 50000000 bytes
+Total matches = 12016
 
-Total Time: .046038485 seconds
+Total Time: .044861959 seconds
 
 number of threads: 4
 file size is 50000000
-Time taken: 0.012591 seconds for 50000000 bytes
-Total matches = 11951
+Time taken: 0.011926 seconds for 50000000 bytes
+Total matches = 12016
 
-Total Time: .037902427 seconds
+Total Time: .036339055 seconds
 
 number of threads: 8
 file size is 50000000
-Time taken: 0.010505 seconds for 50000000 bytes
-Total matches = 11951
+Time taken: 0.011315 seconds for 50000000 bytes
+Total matches = 12016
 
-Total Time: .035241035 seconds
+Total Time: .035532609 seconds
 
 number of threads: 16
 file size is 50000000
-Time taken: 0.011918 seconds for 50000000 bytes
-Total matches = 11951
+Time taken: 0.012370 seconds for 50000000 bytes
+Total matches = 12016
 
-Total Time: .038702134 seconds
+Total Time: .036552435 seconds
+
+
+---size of array and string to match: 50000000+openmp---
 
 number of threads: 1
 file size is 50000000
-Time taken: 0.027629 seconds for 50000000 bytes
+Time taken: 0.027727 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .051766253 seconds
+Total Time: .050893420 seconds
 
 number of threads: 2
 file size is 50000000
-Time taken: 0.014446 seconds for 50000000 bytes
+Time taken: 0.014480 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .038545742 seconds
+Total Time: .037225655 seconds
 
 number of threads: 4
 file size is 50000000
-Time taken: 0.008178 seconds for 50000000 bytes
+Time taken: 0.007908 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .032304040 seconds
+Total Time: .030723812 seconds
 
 number of threads: 8
 file size is 50000000
-Time taken: 0.005184 seconds for 50000000 bytes
+Time taken: 0.004966 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .029257615 seconds
+Total Time: .028183218 seconds
 
 number of threads: 16
 file size is 50000000
-Time taken: 0.005076 seconds for 50000000 bytes
+Time taken: 0.008009 seconds for 50000000 bytes
 Total matches = 0
 
-Total Time: .029862850 seconds
+Total Time: .031372161 seconds
 
 
----size of array: 100000000---
+---size of array and string to match: 100000000+312---
 
 number of threads: 1
 file size is 100000000
-Time taken: 0.071805 seconds for 100000000 bytes
-Total matches = 372
+Time taken: 0.069543 seconds for 100000000 bytes
+Total matches = 370
 
-Total Time: .120861721 seconds
+Total Time: .114756043 seconds
 
 number of threads: 2
 file size is 100000000
-Time taken: 0.040481 seconds for 100000000 bytes
-Total matches = 372
+Time taken: 0.039421 seconds for 100000000 bytes
+Total matches = 370
 
-Total Time: .088633501 seconds
+Total Time: .084165847 seconds
 
 number of threads: 4
 file size is 100000000
-Time taken: 0.023630 seconds for 100000000 bytes
-Total matches = 372
+Time taken: 0.022914 seconds for 100000000 bytes
+Total matches = 370
 
-Total Time: .071752831 seconds
+Total Time: .068308119 seconds
 
 number of threads: 8
 file size is 100000000
-Time taken: 0.019282 seconds for 100000000 bytes
-Total matches = 372
+Time taken: 0.018138 seconds for 100000000 bytes
+Total matches = 370
 
-Total Time: .067895178 seconds
+Total Time: .062851589 seconds
 
 number of threads: 16
 file size is 100000000
-Time taken: 0.019010 seconds for 100000000 bytes
-Total matches = 372
+Time taken: 0.019285 seconds for 100000000 bytes
+Total matches = 370
 
-Total Time: .067782067 seconds
+Total Time: .064454639 seconds
+
+
+---size of array and string to match: 100000000+xd---
 
 number of threads: 1
 file size is 100000000
-Time taken: 0.074566 seconds for 100000000 bytes
-Total matches = 23786
+Time taken: 0.073577 seconds for 100000000 bytes
+Total matches = 23818
 
-Total Time: .123434292 seconds
+Total Time: .118601735 seconds
 
 number of threads: 2
 file size is 100000000
-Time taken: 0.043220 seconds for 100000000 bytes
-Total matches = 23786
+Time taken: 0.041385 seconds for 100000000 bytes
+Total matches = 23818
 
-Total Time: .091135783 seconds
+Total Time: .087452473 seconds
 
 number of threads: 4
 file size is 100000000
-Time taken: 0.027886 seconds for 100000000 bytes
-Total matches = 23786
+Time taken: 0.028134 seconds for 100000000 bytes
+Total matches = 23818
 
-Total Time: .076230237 seconds
+Total Time: .074776304 seconds
 
 number of threads: 8
 file size is 100000000
-Time taken: 0.023000 seconds for 100000000 bytes
-Total matches = 23786
+Time taken: 0.024135 seconds for 100000000 bytes
+Total matches = 23818
 
-Total Time: .071636699 seconds
+Total Time: .072558806 seconds
 
 number of threads: 16
 file size is 100000000
-Time taken: 0.023064 seconds for 100000000 bytes
-Total matches = 23786
+Time taken: 0.022868 seconds for 100000000 bytes
+Total matches = 23818
 
-Total Time: .073347164 seconds
+Total Time: .067951574 seconds
+
+
+---size of array and string to match: 100000000+openmp---
 
 number of threads: 1
 file size is 100000000
-Time taken: 0.054011 seconds for 100000000 bytes
+Time taken: 0.053893 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .104549324 seconds
+Total Time: .098475658 seconds
 
 number of threads: 2
 file size is 100000000
-Time taken: 0.028008 seconds for 100000000 bytes
+Time taken: 0.027937 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .076402859 seconds
+Total Time: .071433217 seconds
 
 number of threads: 4
 file size is 100000000
-Time taken: 0.024066 seconds for 100000000 bytes
+Time taken: 0.015854 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .072608757 seconds
+Total Time: .060311517 seconds
 
 number of threads: 8
 file size is 100000000
-Time taken: 0.008687 seconds for 100000000 bytes
+Time taken: 0.008992 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .057499362 seconds
+Total Time: .052750103 seconds
 
 number of threads: 16
 file size is 100000000
-Time taken: 0.009060 seconds for 100000000 bytes
+Time taken: 0.010067 seconds for 100000000 bytes
 Total matches = 0
 
-Total Time: .057565471 seconds
+Total Time: .053908185 seconds
 
 
----size of array: 2000000000---
+---size of array and string to match: 2000000000+312---
 
 number of threads: 1
 file size is 2000000000
-Time taken: 1.191685 seconds for 2000000000 bytes
-Total matches = 7373
+Time taken: 1.361059 seconds for 2000000000 bytes
+Total matches = 7353
 
-Total Time: 2.091198862 seconds
+Total Time: 2.158526842 seconds
 
 number of threads: 2
 file size is 2000000000
-Time taken: 0.633502 seconds for 2000000000 bytes
-Total matches = 7373
+Time taken: 0.753785 seconds for 2000000000 bytes
+Total matches = 7353
 
-Total Time: 1.523069100 seconds
+Total Time: 1.549541999 seconds
 
 number of threads: 4
 file size is 2000000000
-Time taken: 0.344746 seconds for 2000000000 bytes
-Total matches = 7373
+Time taken: 0.425337 seconds for 2000000000 bytes
+Total matches = 7353
 
-Total Time: 1.245633179 seconds
+Total Time: 1.226831943 seconds
 
 number of threads: 8
 file size is 2000000000
-Time taken: 0.222154 seconds for 2000000000 bytes
-Total matches = 7373
+Time taken: 0.322342 seconds for 2000000000 bytes
+Total matches = 7353
 
-Total Time: 1.112658717 seconds
+Total Time: 1.121355525 seconds
 
 number of threads: 16
 file size is 2000000000
-Time taken: 0.242682 seconds for 2000000000 bytes
-Total matches = 7373
+Time taken: 0.339244 seconds for 2000000000 bytes
+Total matches = 7353
 
-Total Time: 1.133342390 seconds
+Total Time: 1.139365293 seconds
+
+
+---size of array and string to match: 2000000000+xd---
 
 number of threads: 1
 file size is 2000000000
-Time taken: 1.331538 seconds for 2000000000 bytes
-Total matches = 475905
+Time taken: 1.446950 seconds for 2000000000 bytes
+Total matches = 475724
 
-Total Time: 2.250607505 seconds
+Total Time: 2.247613686 seconds
 
 number of threads: 2
 file size is 2000000000
-Time taken: 0.719930 seconds for 2000000000 bytes
-Total matches = 475905
+Time taken: 0.795809 seconds for 2000000000 bytes
+Total matches = 475724
 
-Total Time: 1.634131688 seconds
+Total Time: 1.591490295 seconds
 
 number of threads: 4
 file size is 2000000000
-Time taken: 0.407575 seconds for 2000000000 bytes
-Total matches = 475905
+Time taken: 0.535198 seconds for 2000000000 bytes
+Total matches = 475724
 
-Total Time: 1.333383862 seconds
+Total Time: 1.339358241 seconds
 
 number of threads: 8
 file size is 2000000000
-Time taken: 0.283548 seconds for 2000000000 bytes
-Total matches = 475905
+Time taken: 0.444314 seconds for 2000000000 bytes
+Total matches = 475724
 
-Total Time: 1.199665714 seconds
+Total Time: 1.243154560 seconds
 
 number of threads: 16
 file size is 2000000000
-Time taken: 0.270876 seconds for 2000000000 bytes
-Total matches = 475905
+Time taken: 0.426774 seconds for 2000000000 bytes
+Total matches = 475724
 
-Total Time: 1.188707292 seconds
+Total Time: 1.231996206 seconds
+
+
+---size of array and string to match: 2000000000+openmp---
 
 number of threads: 1
 file size is 2000000000
-Time taken: 1.031542 seconds for 2000000000 bytes
+Time taken: 1.030955 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.922170057 seconds
+Total Time: 1.825819392 seconds
 
 number of threads: 2
 file size is 2000000000
-Time taken: 0.519893 seconds for 2000000000 bytes
+Time taken: 0.517459 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.404850430 seconds
+Total Time: 1.306174702 seconds
 
 number of threads: 4
 file size is 2000000000
-Time taken: 0.266326 seconds for 2000000000 bytes
+Time taken: 0.264472 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.153287075 seconds
+Total Time: 1.058475998 seconds
 
 number of threads: 8
 file size is 2000000000
-Time taken: 0.134133 seconds for 2000000000 bytes
+Time taken: 0.136911 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.020805697 seconds
+Total Time: .931177339 seconds
 
 number of threads: 16
 file size is 2000000000
-Time taken: 0.127794 seconds for 2000000000 bytes
+Time taken: 0.128499 seconds for 2000000000 bytes
 Total matches = 0
 
-Total Time: 1.017647212 seconds
+Total Time: .921039454 seconds
 
 
 -----------running string_matching_seq_clang.out-----------
 
 
----size of array: 50000000---
+---size of array and string to match: 50000000+312---
 
 string_matching_seq_clang.out, N = 50000000
 file size is 50000000
 
-Total matches = 189
-Time taken: 0.036037
+Total matches = 196
+Time taken: 0.036530
 
-Total Time: .056505863 seconds
+Total Time: .055329335 seconds
+
+
+---size of array and string to match: 50000000+xd---
 
 string_matching_seq_clang.out, N = 50000000
 file size is 50000000
 
-Total matches = 11961
-Time taken: 0.036175
+Total matches = 11965
+Time taken: 0.036568
 
-Total Time: .054797128 seconds
+Total Time: .054451034 seconds
+
+
+---size of array and string to match: 50000000+openmp---
 
 string_matching_seq_clang.out, N = 50000000
 file size is 50000000
 
 Total matches = 0
-Time taken: 0.036431
+Time taken: 0.036284
 
-Total Time: .054845659 seconds
+Total Time: .054731621 seconds
 
 
----size of array: 100000000---
-
-string_matching_seq_clang.out, N = 100000000
-file size is 100000000
-
-Total matches = 337
-Time taken: 0.071774
-
-Total Time: .109792566 seconds
+---size of array and string to match: 100000000+312---
 
 string_matching_seq_clang.out, N = 100000000
 file size is 100000000
 
-Total matches = 23986
-Time taken: 0.071702
+Total matches = 411
+Time taken: 0.071693
 
-Total Time: .108923691 seconds
+Total Time: .108729961 seconds
+
+
+---size of array and string to match: 100000000+xd---
+
+string_matching_seq_clang.out, N = 100000000
+file size is 100000000
+
+Total matches = 23768
+Time taken: 0.071792
+
+Total Time: .107863053 seconds
+
+
+---size of array and string to match: 100000000+openmp---
 
 string_matching_seq_clang.out, N = 100000000
 file size is 100000000
 
 Total matches = 0
-Time taken: 0.071826
+Time taken: 0.071776
 
-Total Time: .110454484 seconds
+Total Time: .107747021 seconds
 
 
----size of array: 2000000000---
-
-string_matching_seq_clang.out, N = 2000000000
-file size is 2000000000
-
-Total matches = 7296
-Time taken: 1.430011
-
-Total Time: 2.151731625 seconds
+---size of array and string to match: 2000000000+312---
 
 string_matching_seq_clang.out, N = 2000000000
 file size is 2000000000
 
-Total matches = 476345
-Time taken: 1.432977
+Total matches = 7250
+Time taken: 1.433839
 
-Total Time: 2.158116448 seconds
+Total Time: 2.092553717 seconds
+
+
+---size of array and string to match: 2000000000+xd---
+
+string_matching_seq_clang.out, N = 2000000000
+file size is 2000000000
+
+Total matches = 475437
+Time taken: 1.429653
+
+Total Time: 2.084576907 seconds
+
+
+---size of array and string to match: 2000000000+openmp---
 
 string_matching_seq_clang.out, N = 2000000000
 file size is 2000000000
 
 Total matches = 0
-Time taken: 1.430365
+Time taken: 1.433065
 
-Total Time: 2.153972774 seconds
+Total Time: 2.089790272 seconds
 
 
 -----------running string_matching_seq_gcc.out-----------
 
 
----size of array: 50000000---
+---size of array and string to match: 50000000+312---
 
 string_matching_seq_gcc.out, N = 50000000
 file size is 50000000
 
-Total matches = 189
-Time taken: 0.037367
+Total matches = 165
+Time taken: 0.035768
 
-Total Time: .058613610 seconds
+Total Time: .054992582 seconds
+
+
+---size of array and string to match: 50000000+xd---
 
 string_matching_seq_gcc.out, N = 50000000
 file size is 50000000
 
-Total matches = 11885
-Time taken: 0.038213
+Total matches = 11708
+Time taken: 0.038879
 
-Total Time: .058252237 seconds
+Total Time: .058298303 seconds
+
+
+---size of array and string to match: 50000000+openmp---
 
 string_matching_seq_gcc.out, N = 50000000
 file size is 50000000
 
 Total matches = 0
-Time taken: 0.025825
+Time taken: 0.025906
 
-Total Time: .045651172 seconds
+Total Time: .045262230 seconds
 
 
----size of array: 100000000---
-
-string_matching_seq_gcc.out, N = 100000000
-file size is 100000000
-
-Total matches = 376
-Time taken: 0.074188
-
-Total Time: .113789752 seconds
+---size of array and string to match: 100000000+312---
 
 string_matching_seq_gcc.out, N = 100000000
 file size is 100000000
 
-Total matches = 23704
-Time taken: 0.077378
+Total matches = 370
+Time taken: 0.074087
 
-Total Time: .116150081 seconds
+Total Time: .112001931 seconds
+
+
+---size of array and string to match: 100000000+xd---
+
+string_matching_seq_gcc.out, N = 100000000
+file size is 100000000
+
+Total matches = 23547
+Time taken: 0.077521
+
+Total Time: .116390255 seconds
+
+
+---size of array and string to match: 100000000+openmp---
 
 string_matching_seq_gcc.out, N = 100000000
 file size is 100000000
 
 Total matches = 0
-Time taken: 0.051232
+Time taken: 0.051629
 
-Total Time: .090831060 seconds
+Total Time: .090008573 seconds
 
 
----size of array: 2000000000---
-
-string_matching_seq_gcc.out, N = 2000000000
-file size is 2000000000
-
-Total matches = 7355
-Time taken: 1.328551
-
-Total Time: 2.057139333 seconds
+---size of array and string to match: 2000000000+312---
 
 string_matching_seq_gcc.out, N = 2000000000
 file size is 2000000000
 
-Total matches = 473488
-Time taken: 1.446932
+Total matches = 7407
+Time taken: 1.464129
 
-Total Time: 2.193343291 seconds
+Total Time: 2.113515505 seconds
+
+
+---size of array and string to match: 2000000000+xd---
+
+string_matching_seq_gcc.out, N = 2000000000
+file size is 2000000000
+
+Total matches = 474931
+Time taken: 1.546097
+
+Total Time: 2.198932416 seconds
+
+
+---size of array and string to match: 2000000000+openmp---
 
 string_matching_seq_gcc.out, N = 2000000000
 file size is 2000000000
 
 Total matches = 0
-Time taken: 1.032883
+Time taken: 1.021827
 
-Total Time: 1.763480235 seconds
+Total Time: 1.662333698 seconds
 

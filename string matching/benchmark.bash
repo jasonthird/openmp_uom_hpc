@@ -18,16 +18,16 @@ for p in *.out; do
     echo "-----------running $p-----------"
     echo ""
     for i in 50000000 100000000 2000000000; do
-        echo ""
-        echo "---size of array: $i---"
-        echo ""
         #generate the input file
         base64 /dev/urandom | head -c $i > file.txt
         for s in 312 xd openmp; do
+                echo ""
+        echo "---size of array and string to match: $i+$s---"
+        echo ""
         #if the file contains seq then only run it once
             if [[ $p == *"seq"* ]]; then
-                START=$(date +%s.%N)
                 echo "$p, N = $i"
+                START=$(date +%s.%N)
                 ./$p file.txt $s
                 END=$(date +%s.%N)
                 DIFF=$(echo "$END - $START" | bc)
